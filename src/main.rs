@@ -1,7 +1,10 @@
-use core::str;
-use std::collections::BTreeMap;
+use std::{
+    collections::BTreeMap,
+    fs::File,
+    io::{self},
+};
 
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut lines = std::io::stdin().lines();
 
     let line = lines.next().unwrap();
@@ -19,91 +22,20 @@ fn main() {
 
     by_len.sort_by(|a, b| a.keys.len().cmp(&b.keys.len()));
 
-    let qsect = by_len.first().unwrap();
-
-    let class_name = qsect.class_name();
-    // Pre
-    println!("
-using Uster.USDAControlCenter2.Model;
-
-namespace Uster.USDAControlCenter2.ViewModel.HVISlice;");
-    print!(
-        "
-public class {}ViewModel : ViewModelBase",
-        class_name
-    );
-
-    print!(
-        "
-{{"
-    );
-
-    // Private fields
-    for (key, _) in &qsect.keys {
-        let camelcase = key_to_camelcase(&key);
-        let private = to_private(&camelcase);
-
-        print!(
-            "
-    private ConfigEntry {};
-        ",
-            private,
-        );
-    }
-
-    // Constructor
-    print!(
-        "
-    public {}ViewModel(HVIViewModel hviViewModel)",
-        class_name
-    );
-    print!(
-        "
-    {{"
-    );
-
-    // Meat
-    for (key, _) in &qsect.keys {
-        let camelcase = key_to_camelcase(&key);
-
-        print!(
-            "
-        this.{} = hviViewModel.ConfigDictionaryViewModel.ConfigDictionary.ConfigEntries[\"{}\"];",
-            to_private(&camelcase),
-            format!("{}~{}", qsect.qualified_section, key),
-        );
-    }
-
-    println!(
-        "
-    }}"
-    );
-
-    // Properties
-    for (key, _) in &qsect.keys {
-        let camelcase = key_to_camelcase(&key);
-        let private = to_private(&camelcase);
+    for qsect in by_len {
+        let filename = format!("./{}.cs", qsect.slice_class_name());
+        let mut file = File::create(filename)?;
+        qsect.write_slice_class_def(&mut file)?;
+        /*
         println!(
-            "
-    public string {}
-    {{
-        get => this.{}.DirtyData;
-        set => this.{}.DirtyData = value;
-    }}",
-            camelcase, private, private,
+            "\"{}\" => {}.Factory(this.HVIs),",
+            qsect.qualified_section,
+            qsect.vm_class_name()
         );
+        */
     }
 
-    // post
-    println!("}}");
-
-    // for (key, v) in &qsect.keys {
-    //     let camelcase = key_to_camelcase(&key);
-
-    //     println!("{};", to_private(&camelcase));
-    //     println!("{};// {} -- {}~{}", camelcase, v, qsect.qualified_section, key);
-    //     println!();
-    // }
+    Ok(())
 }
 
 struct QualifiedSection {
@@ -126,6 +58,179 @@ impl QualifiedSection {
             .collect::<Vec<_>>()
             .join("")
     }
+
+    fn vm_class_name(&self) -> String {
+        self.class_name() + "ViewModel"
+    }
+
+    fn slice_class_name(&self) -> String {
+        self.class_name() + "SliceViewModel"
+    }
+
+    fn write_slice_class_def(&self, w: &mut dyn io::Write) -> io::Result<()> {
+        // Pre
+        writeln!(
+            w,
+            "// <auto generated/>
+using CommunityToolkit.Mvvm.ComponentModel;
+using Uster.USDAControlCenter2.Model;
+using Uster.USDAControlCenter2.ViewModel.DataViewModel;
+
+namespace Uster.USDAControlCenter2.ViewModel.HVISlice;"
+        )?;
+        write!(
+            w,
+            "
+public class {}: ObservableObject, IConstructWithHVI<{}>",
+            self.slice_class_name(),
+            self.slice_class_name(),
+        )?;
+
+        write!(
+            w,
+            "
+{{"
+        )?;
+
+        // Private fields
+        write!(
+            w,
+            "
+    private readonly HVI _hvi;
+        ",
+        )?;
+        for (key, _) in &self.keys {
+            let camelcase = key_to_camelcase(&key);
+            let private = to_private(&camelcase);
+
+            write!(
+                w,
+                "
+    private ConfigEntry? {};
+        ",
+                private,
+            )?;
+        }
+
+        // Constructor
+        write!(
+            w,
+            "
+    public {}(HVI hvi)",
+            self.slice_class_name()
+        )?;
+        write!(
+            w,
+            "
+    {{"
+        )?;
+        write!(
+            w,
+            "
+        this._hvi = hvi;",
+        )?;
+
+        // Meat
+        for (key, _) in &self.keys {
+            let camelcase = key_to_camelcase(&key);
+
+            write!(
+                w,
+                "
+        hvi.ConfigData.ConfigEntries.TryGetValue(\"{}\", out this.{});",
+                format!("{}~{}", self.qualified_section, key),
+                to_private(&camelcase),
+            )?;
+        }
+
+        writeln!(
+            w,
+            "
+    }}"
+        )?;
+
+
+        // UpdateModel
+        write!(
+            w,
+            "
+    public void UpdateModel(HVI hvi)",
+        )?;
+        write!(
+            w,
+            "
+    {{"
+        )?;
+        write!(
+            w,
+            "
+        this._hvi.Update(hvi);",
+        )?;
+
+        // Meat
+        for (key, _) in &self.keys {
+            let camelcase = key_to_camelcase(&key);
+
+            write!(
+                w,
+                "
+        hvi.ConfigData.ConfigEntries.TryGetValue(\"{}\", out this.{});
+        this.OnPropertyChanged(nameof(this.{}));",
+                format!("{}~{}", self.qualified_section, key),
+                to_private(&camelcase),
+                camelcase,
+            )?;
+        }
+
+        writeln!(
+            w,
+            "
+    }}"
+        )?;
+        // Properties
+
+        writeln!(
+            w,
+            "
+    public int Line => this._hvi.Line;",
+        )?;
+
+        for (key, _) in &self.keys {
+            let camelcase = key_to_camelcase(&key);
+            let private = to_private(&camelcase);
+            writeln!(
+                w,
+                "
+    public string {camelcase}
+    {{
+        get => this.{private}?.DirtyData ?? \"No Data\";
+        set 
+        {{
+            if (this.{private} is null)
+            {{
+                return;
+            }}
+
+            this.SetProperty(ref this.{private}.DirtyData, value);
+        }}
+    }}")?;
+        }
+
+        writeln!(
+            w,
+            "
+    public static {} MakeWithHVI(HVI hvi) {{
+        return new {}(hvi);
+    }}",
+            self.slice_class_name(),
+            self.slice_class_name(),
+        )?;
+
+        // post
+        writeln!(w, "}}")?;
+
+        Ok(())
+    }
 }
 
 fn to_private(camel_case_string: &str) -> String {
@@ -138,9 +243,15 @@ fn to_private(camel_case_string: &str) -> String {
 }
 
 fn key_to_camelcase(key: &str) -> String {
-    let words = key.split_whitespace();
+    let words = key.split(|c| " /~_-.()+".contains(c));
+    // .split_whitespace();
     let camelcase: String = words.into_iter().map(uppercase_first_letter).collect();
-    camelcase
+
+    if camelcase.starts_with(|c: char| c.is_ascii_digit()) {
+        "M".to_string() + &camelcase
+    } else {
+        camelcase
+    }
 }
 
 fn uppercase_first_letter(w: &str) -> String {
