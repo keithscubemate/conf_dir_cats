@@ -23,7 +23,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     by_len.sort_by(|a, b| a.keys.len().cmp(&b.keys.len()));
 
     for qsect in by_len {
-        let filename = format!("./{}.cs", qsect.slice_class_name());
+        let filename = format!("./test_dir/{}.cs", qsect.slice_class_name());
         let mut file = File::create(filename)?;
         qsect.write_slice_class_def(&mut file)?;
         /*
