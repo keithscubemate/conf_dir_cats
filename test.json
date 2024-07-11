@@ -1,0 +1,4117 @@
+[
+  {
+    "Name": "AmicRdIniMicCalibrationParameterValues",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES",
+    "Fields": [
+      {
+        "Name": "MicChamberSkipADLimit",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~MIC CHAMBER SKIP A/D LIMIT"
+      },
+      {
+        "Name": "MicChamberSkipRawMicLimit",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~MIC CHAMBER SKIP RAW MIC LIMIT"
+      },
+      {
+        "Name": "MicChamberFactor",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~MIC CHAMBER FACTOR"
+      },
+      {
+        "Name": "AdTare",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~AD TARE"
+      },
+      {
+        "Name": "ChamberCalLowReference",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~CHAMBER CAL LOW REFERENCE"
+      },
+      {
+        "Name": "ChamberCalHighReference",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~CHAMBER CAL HIGH REFERENCE"
+      },
+      {
+        "Name": "ChamberCalibrationSlope",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~CHAMBER CALIBRATION SLOPE"
+      },
+      {
+        "Name": "ChamberCalibrationOffset",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES~CHAMBER CALIBRATION OFFSET"
+      }
+    ]
+  },
+  {
+    "Name": "AmicRdIniMicCalibrationStandardValues",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~MIC CALIBRATION STANDARD VALUES",
+    "Fields": [
+      {
+        "Name": "MicSensorSpan",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC CALIBRATION STANDARD VALUES~MIC SENSOR SPAN"
+      }
+    ]
+  },
+  {
+    "Name": "AmicRdIniMicHardwareSetup",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~MIC HARDWARE SETUP",
+    "Fields": [
+      {
+        "Name": "MicDelayTimeInSeconds",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC HARDWARE SETUP~MIC DELAY TIME IN SECONDS"
+      },
+      {
+        "Name": "PistonToMeasureTimeDelayInSeconds",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC HARDWARE SETUP~PISTON TO MEASURE TIME DELAY IN SECONDS"
+      }
+    ]
+  },
+  {
+    "Name": "AmicRdIniMicMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~MIC MOTOR",
+    "Fields": [
+      {
+        "Name": "MaxAmpsToStartMeasurementPosition21000",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~MAX AMPS TO START MEASUREMENT POSITION (2-1000)"
+      },
+      {
+        "Name": "MaxAmpsTo12gPosition21000",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~MAX AMPS TO 12G POSITION (2-1000)"
+      },
+      {
+        "Name": "MaxAmpsTo10gPosition21000",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~MAX AMPS TO 10G POSITION (2-1000)"
+      },
+      {
+        "Name": "MaxAmpsToOtherPositions21000",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~MAX AMPS TO OTHER POSITIONS (2-1000)"
+      },
+      {
+        "Name": "MaxAmpsToHome21000",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~MAX AMPS TO HOME (2-1000)"
+      },
+      {
+        "Name": "M12gChamberPosition",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~12G CHAMBER POSITION"
+      },
+      {
+        "Name": "M10gChamberPosition",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~10G CHAMBER POSITION"
+      },
+      {
+        "Name": "SampleEjectPosition",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SAMPLE EJECT POSITION"
+      },
+      {
+        "Name": "SmSeekSpeed",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SM SEEK SPEED"
+      },
+      {
+        "Name": "SmSlowSpeed",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SM SLOW SPEED"
+      },
+      {
+        "Name": "SmFastSpeed",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SM FAST SPEED"
+      },
+      {
+        "Name": "SmAcceleration",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SM ACCELERATION"
+      },
+      {
+        "Name": "SmPositionError",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SM POSITION ERROR"
+      },
+      {
+        "Name": "ChamberReferencePositionMicPistonTouchesMicDoor",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~CHAMBER REFERENCE POSITION (MIC PISTON TOUCHES MIC DOOR)"
+      },
+      {
+        "Name": "SamplePurgePosition",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC MOTOR~SAMPLE PURGE POSITION"
+      }
+    ]
+  },
+  {
+    "Name": "AmicRdIniMicTestSetup",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~MIC TEST SETUP",
+    "Fields": [
+      {
+        "Name": "DebugModeForMicYesOrNo",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~MIC TEST SETUP~DEBUG MODE FOR MIC (YES OR NO)"
+      }
+    ]
+  },
+  {
+    "Name": "AmicRdIniTimeouts",
+    "Description": "Temp_Description",
+    "Qualified_section": "AMIC-RD.INI~TIMEOUTS",
+    "Fields": [
+      {
+        "Name": "Idlecalibresettimeout",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~TIMEOUTS~IDLECALIBRESETTIMEOUT"
+      },
+      {
+        "Name": "Lscalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~TIMEOUTS~LSCALIBRATIONTIMEOUT"
+      },
+      {
+        "Name": "Ctcalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~TIMEOUTS~CTCALIBRATIONTIMEOUT"
+      },
+      {
+        "Name": "Miccalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~TIMEOUTS~MICCALIBRATIONTIMEOUT"
+      },
+      {
+        "Name": "Holdstatusfiletimeout",
+        "Description": "Temp_Description",
+        "Key": "AMIC-RD.INI~TIMEOUTS~HOLDSTATUSFILETIMEOUT"
+      }
+    ]
+  },
+  {
+    "Name": "BgUsterIniBGAlgorithm",
+    "Description": "Temp_Description",
+    "Qualified_section": "BG_USTER.INI~B/G ALGORITHM",
+    "Fields": [
+      {
+        "Name": "BGA0",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-0"
+      },
+      {
+        "Name": "BGA1",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-1"
+      },
+      {
+        "Name": "BGA2",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-2"
+      },
+      {
+        "Name": "BGA3",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-3"
+      },
+      {
+        "Name": "BGA4",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-4"
+      },
+      {
+        "Name": "BGA5",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-5"
+      },
+      {
+        "Name": "BGA6",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-6"
+      },
+      {
+        "Name": "BGA7",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-7"
+      },
+      {
+        "Name": "BGA8",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-8"
+      },
+      {
+        "Name": "BGA9",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-9"
+      },
+      {
+        "Name": "BGA10",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G ALGORITHM~B/G A-10"
+      }
+    ]
+  },
+  {
+    "Name": "BgUsterIniBGCalibration",
+    "Description": "Temp_Description",
+    "Qualified_section": "BG_USTER.INI~B/G CALIBRATION",
+    "Fields": [
+      {
+        "Name": "BGC0L",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-0 (L)"
+      },
+      {
+        "Name": "BGC1L",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-1 (L)"
+      },
+      {
+        "Name": "BGC2L",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-2 (L)"
+      },
+      {
+        "Name": "BGC3L",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-3 (L)"
+      },
+      {
+        "Name": "BGC0U",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-0 (U)"
+      },
+      {
+        "Name": "BGC1U",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-1 (U)"
+      },
+      {
+        "Name": "BGC2U",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-2 (U)"
+      },
+      {
+        "Name": "BGC3U",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~B/G CALIBRATION~B/G C-3 (U)"
+      }
+    ]
+  },
+  {
+    "Name": "BgUsterIniSetting",
+    "Description": "Temp_Description",
+    "Qualified_section": "BG_USTER.INI~SETTING",
+    "Fields": [
+      {
+        "Name": "ConfigurationType",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~SETTING~CONFIGURATION TYPE"
+      }
+    ]
+  },
+  {
+    "Name": "BgUsterIniTrashCalibration",
+    "Description": "Temp_Description",
+    "Qualified_section": "BG_USTER.INI~TRASH CALIBRATION",
+    "Fields": [
+      {
+        "Name": "Hvi9SquareInchesSpanXL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~HVI 9 SQUARE INCHES SPAN X (L)"
+      },
+      {
+        "Name": "Hvi9SquareInchesSpanYL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~HVI 9 SQUARE INCHES SPAN Y (L)"
+      },
+      {
+        "Name": "AllWindowStartXL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW START X (L)"
+      },
+      {
+        "Name": "AllWindowStartYL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW START Y (L)"
+      },
+      {
+        "Name": "AllWindowEndXL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW END X (L)"
+      },
+      {
+        "Name": "AllWindowEndYL",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW END Y (L)"
+      },
+      {
+        "Name": "Hvi9SquareInchesSpanXU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~HVI 9 SQUARE INCHES SPAN X (U)"
+      },
+      {
+        "Name": "Hvi9SquareInchesSpanYU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~HVI 9 SQUARE INCHES SPAN Y (U)"
+      },
+      {
+        "Name": "AllWindowStartXU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW START X (U)"
+      },
+      {
+        "Name": "AllWindowStartYU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW START Y (U)"
+      },
+      {
+        "Name": "AllWindowEndXU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW END X (U)"
+      },
+      {
+        "Name": "AllWindowEndYU",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH CALIBRATION~ALL WINDOW END Y (U)"
+      }
+    ]
+  },
+  {
+    "Name": "BgUsterIniTrashParameters",
+    "Description": "Temp_Description",
+    "Qualified_section": "BG_USTER.INI~TRASH PARAMETERS",
+    "Fields": [
+      {
+        "Name": "TrashTileCount",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH PARAMETERS~TRASH TILE COUNT"
+      },
+      {
+        "Name": "TrashTileArea",
+        "Description": "Temp_Description",
+        "Key": "BG_USTER.INI~TRASH PARAMETERS~TRASH TILE AREA"
+      }
+    ]
+  },
+  {
+    "Name": "CalibrateIniColor",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE.INI~COLOR",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "CalibrateIniColorTrash",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE.INI~COLOR-TRASH",
+    "Fields": [
+      {
+        "Name": "StartX",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~START_X"
+      },
+      {
+        "Name": "StopX",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~STOP_X"
+      },
+      {
+        "Name": "StartY",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~START_Y"
+      },
+      {
+        "Name": "StopY",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~STOP_Y"
+      },
+      {
+        "Name": "TrashAreaSlope",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~TRASH_AREA_SLOPE"
+      },
+      {
+        "Name": "TrashAreaOffset",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~TRASH_AREA_OFFSET"
+      },
+      {
+        "Name": "Rdcoeff0",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~RDCOEFF0"
+      },
+      {
+        "Name": "Plusbcoeff0",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~PLUSBCOEFF0"
+      },
+      {
+        "Name": "Rdcoeff1",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~RDCOEFF1"
+      },
+      {
+        "Name": "Plusbcoeff1",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~PLUSBCOEFF1"
+      },
+      {
+        "Name": "Rdcoeff2",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~RDCOEFF2"
+      },
+      {
+        "Name": "Plusbcoeff2",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~COLOR-TRASH~PLUSBCOEFF2"
+      }
+    ]
+  },
+  {
+    "Name": "CalibrateIniFramegrabber",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE.INI~FRAMEGRABBER",
+    "Fields": [
+      {
+        "Name": "CoarseTune",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~FRAMEGRABBER~COARSE TUNE"
+      },
+      {
+        "Name": "FineTune",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~FRAMEGRABBER~FINE TUNE"
+      }
+    ]
+  },
+  {
+    "Name": "CalibrateIniTrash",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE.INI~TRASH",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~TRASH~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "CalibrateIniTrashdeflation",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE.INI~TRASHDEFLATION",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE.INI~TRASHDEFLATION~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Calibrate2IniColor",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE2.INI~COLOR",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Calibrate2IniColorTrash",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE2.INI~COLOR-TRASH",
+    "Fields": [
+      {
+        "Name": "StartX",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~START_X"
+      },
+      {
+        "Name": "StopX",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~STOP_X"
+      },
+      {
+        "Name": "StartY",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~START_Y"
+      },
+      {
+        "Name": "StopY",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~STOP_Y"
+      },
+      {
+        "Name": "TrashAreaSlope",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~TRASH_AREA_SLOPE"
+      },
+      {
+        "Name": "TrashAreaOffset",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~TRASH_AREA_OFFSET"
+      },
+      {
+        "Name": "Rdcoeff0",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~RDCOEFF0"
+      },
+      {
+        "Name": "Plusbcoeff0",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~PLUSBCOEFF0"
+      },
+      {
+        "Name": "Rdcoeff1",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~RDCOEFF1"
+      },
+      {
+        "Name": "Plusbcoeff1",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~PLUSBCOEFF1"
+      },
+      {
+        "Name": "Rdcoeff2",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~RDCOEFF2"
+      },
+      {
+        "Name": "Plusbcoeff2",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~COLOR-TRASH~PLUSBCOEFF2"
+      }
+    ]
+  },
+  {
+    "Name": "Calibrate2IniFramegrabber",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE2.INI~FRAMEGRABBER",
+    "Fields": [
+      {
+        "Name": "CoarseTune",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~FRAMEGRABBER~COARSE TUNE"
+      },
+      {
+        "Name": "FineTune",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~FRAMEGRABBER~FINE TUNE"
+      }
+    ]
+  },
+  {
+    "Name": "Calibrate2IniTrash",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE2.INI~TRASH",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~TRASH~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Calibrate2IniTrashdeflation",
+    "Description": "Temp_Description",
+    "Qualified_section": "CALIBRATE2.INI~TRASHDEFLATION",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "CALIBRATE2.INI~TRASHDEFLATION~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniAutooffsets",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~AUTOOFFSETS",
+    "Fields": [
+      {
+        "Name": "Useautooffsets",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~AUTOOFFSETS~USEAUTOOFFSETS"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniBrushMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~BRUSH MOTOR",
+    "Fields": [
+      {
+        "Name": "Speed",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~BRUSH MOTOR~SPEED"
+      },
+      {
+        "Name": "Acceleration",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~BRUSH MOTOR~ACCELERATION"
+      },
+      {
+        "Name": "FrontPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~BRUSH MOTOR~FRONT POSITION"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCaliblspimareferences",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBLSPIMAREFERENCES",
+    "Fields": [
+      {
+        "Name": "Longlength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~LONGLENGTH"
+      },
+      {
+        "Name": "Shortlength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~SHORTLENGTH"
+      },
+      {
+        "Name": "Longunif",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~LONGUNIF"
+      },
+      {
+        "Name": "Shortunif",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~SHORTUNIF"
+      },
+      {
+        "Name": "Longstrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~LONGSTRENGTH"
+      },
+      {
+        "Name": "Shortstrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~SHORTSTRENGTH"
+      },
+      {
+        "Name": "Longmic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~LONGMIC"
+      },
+      {
+        "Name": "Shortmic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMAREFERENCES~SHORTMIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCaliblspimaresult",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBLSPIMARESULT",
+    "Fields": [
+      {
+        "Name": "Lengthoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~LENGTHOFFSET"
+      },
+      {
+        "Name": "Lengthslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~LENGTHSLOPE"
+      },
+      {
+        "Name": "Meanlenoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~MEANLENOFFSET"
+      },
+      {
+        "Name": "Meanlenslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~MEANLENSLOPE"
+      },
+      {
+        "Name": "Strengthoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~STRENGTHOFFSET"
+      },
+      {
+        "Name": "Strengthslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~STRENGTHSLOPE"
+      },
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~CALIBRATEDOK"
+      },
+      {
+        "Name": "Cdate",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSPIMARESULT~CDATE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCaliblsreferences",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBLSREFERENCES",
+    "Fields": [
+      {
+        "Name": "Longlength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGLENGTH"
+      },
+      {
+        "Name": "Shortlength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTLENGTH"
+      },
+      {
+        "Name": "Longunif",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGUNIF"
+      },
+      {
+        "Name": "Shortunif",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTUNIF"
+      },
+      {
+        "Name": "Longstrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGSTRENGTH"
+      },
+      {
+        "Name": "Shortstrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTSTRENGTH"
+      },
+      {
+        "Name": "Longmic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGMIC"
+      },
+      {
+        "Name": "Shortmic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTMIC"
+      },
+      {
+        "Name": "Longsfi",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGSFI"
+      },
+      {
+        "Name": "Shortsfi",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTSFI"
+      },
+      {
+        "Name": "Brushgaugeforceslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~BRUSHGAUGEFORCESLOPE"
+      },
+      {
+        "Name": "Brushgaugeforceoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~BRUSHGAUGEFORCEOFFSET"
+      },
+      {
+        "Name": "Longelong",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~LONGELONG"
+      },
+      {
+        "Name": "Shortelong",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSREFERENCES~SHORTELONG"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCaliblsresult",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBLSRESULT",
+    "Fields": [
+      {
+        "Name": "Lengthoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENGTHOFFSET"
+      },
+      {
+        "Name": "Lengthslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENGTHSLOPE"
+      },
+      {
+        "Name": "Meanlenoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~MEANLENOFFSET"
+      },
+      {
+        "Name": "Meanlenslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~MEANLENSLOPE"
+      },
+      {
+        "Name": "Strengthoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~STRENGTHOFFSET"
+      },
+      {
+        "Name": "Strengthslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~STRENGTHSLOPE"
+      },
+      {
+        "Name": "Sfioffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~SFIOFFSET"
+      },
+      {
+        "Name": "Sfislope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~SFISLOPE"
+      },
+      {
+        "Name": "Sfioffset165mm",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~SFIOFFSET16.5MM"
+      },
+      {
+        "Name": "Sfislope165mm",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~SFISLOPE16.5MM"
+      },
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~CALIBRATEDOK"
+      },
+      {
+        "Name": "Elongoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~ELONGOFFSET"
+      },
+      {
+        "Name": "Deflectionconstant",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~DEFLECTIONCONSTANT"
+      },
+      {
+        "Name": "Deflectionslack",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~DEFLECTIONSLACK"
+      },
+      {
+        "Name": "Rlo",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~RLO"
+      },
+      {
+        "Name": "Rmlo",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~RMLO"
+      },
+      {
+        "Name": "Rso",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~RSO"
+      },
+      {
+        "Name": "Rsfo",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~RSFO"
+      },
+      {
+        "Name": "Jawgap1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~JAWGAP1"
+      },
+      {
+        "Name": "Jawgap2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~JAWGAP2"
+      },
+      {
+        "Name": "Lenstobreak1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENSTOBREAK1"
+      },
+      {
+        "Name": "Lenstobreak2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENSTOBREAK2"
+      },
+      {
+        "Name": "Lengthmotorbacklashsteps1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENGTHMOTORBACKLASHSTEPS1"
+      },
+      {
+        "Name": "Lengthmotorbacklashsteps2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENGTHMOTORBACKLASHSTEPS2"
+      },
+      {
+        "Name": "Lensbroadeningsteps1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENSBROADENINGSTEPS1"
+      },
+      {
+        "Name": "Lensbroadeningsteps2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSRESULT~LENSBROADENINGSTEPS2"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCaliblssfiresult",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBLSSFIRESULT",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBLSSFIRESULT~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCalibmicreferences",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBMICREFERENCES",
+    "Fields": [
+      {
+        "Name": "MicHighOrifice",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICREFERENCES~MIC HIGH ORIFICE"
+      },
+      {
+        "Name": "MicLowOrifice",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICREFERENCES~MIC LOW ORIFICE"
+      },
+      {
+        "Name": "MicOrificeSet",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICREFERENCES~MIC ORIFICE SET"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCalibmicresult",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBMICRESULT",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICRESULT~CALIBRATEDOK"
+      },
+      {
+        "Name": "Micoffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICRESULT~MICOFFSET"
+      },
+      {
+        "Name": "Micslope",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICRESULT~MICSLOPE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCalibmictolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBMICTOLERANCES",
+    "Fields": [
+      {
+        "Name": "Miccalibtol",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMICTOLERANCES~MICCALIBTOL"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniCalibmoistresult",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CALIBMOISTRESULT",
+    "Fields": [
+      {
+        "Name": "Calibratedok",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CALIBMOISTRESULT~CALIBRATEDOK"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR",
+    "Fields": [
+      {
+        "Name": "RdWhite",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RD_WHITE"
+      },
+      {
+        "Name": "BWhite",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~B_WHITE"
+      },
+      {
+        "Name": "RdBrown",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RD_BROWN"
+      },
+      {
+        "Name": "BBrown",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~B_BROWN"
+      },
+      {
+        "Name": "RdYellow",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RD_YELLOW"
+      },
+      {
+        "Name": "BYellow",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~B_YELLOW"
+      },
+      {
+        "Name": "RdGray",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RD_GRAY"
+      },
+      {
+        "Name": "BGray",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~B_GRAY"
+      },
+      {
+        "Name": "RdCentral",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RD_CENTRAL"
+      },
+      {
+        "Name": "BCentral",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~B_CENTRAL"
+      },
+      {
+        "Name": "Tileset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~TILESET"
+      },
+      {
+        "Name": "Rdtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~RDTOLERANCE"
+      },
+      {
+        "Name": "Plusbtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR~PLUSBTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColorTrash",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR-TRASH",
+    "Fields": [
+      {
+        "Name": "Tilearea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TILEAREA"
+      },
+      {
+        "Name": "Tilecount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TILECOUNT"
+      },
+      {
+        "Name": "Trashrectanglesizerefcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TRASHRECTANGLESIZEREFCOUNT"
+      },
+      {
+        "Name": "Trashchecktilearea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TRASHCHECKTILEAREA"
+      },
+      {
+        "Name": "Trashareatolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TRASHAREATOLERANCE"
+      },
+      {
+        "Name": "Trashcounttolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TRASHCOUNTTOLERANCE"
+      },
+      {
+        "Name": "Trashrectanglesizecounttolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR-TRASH~TRASHRECTANGLESIZECOUNTTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE",
+    "Fields": [
+      {
+        "Name": "Referenceset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE~REFERENCESET"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference1",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE1",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE1~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE1~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference10",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE10",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE10~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE10~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference11",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE11",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE11~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE11~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference12",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE12",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE12~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE12~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE2",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE2~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE2~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE3",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE3~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE3~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE4",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE4~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE4~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE5",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE5~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE5~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE6",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE6~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE6~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference7",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE7",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE7~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE7~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference8",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE8",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE8~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE8~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12reference9",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE9",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE9~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12REFERENCE9~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x12tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X12TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Color8x12rdtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12TOLERANCES~COLOR8X12RDTOLERANCE"
+      },
+      {
+        "Name": "Color8x12plusbtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12TOLERANCES~COLOR8X12PLUSBTOLERANCE"
+      },
+      {
+        "Name": "Color8x12rdstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12TOLERANCES~COLOR8X12RDSTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Color8x12plusbstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X12TOLERANCES~COLOR8X12PLUSBSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE",
+    "Fields": [
+      {
+        "Name": "Referenceset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE~REFERENCESET"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference1",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE1",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE1~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE1~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE2",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE2~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE2~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE3",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE3~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE3~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE4",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE4~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE4~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE5",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE5~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE5~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE6",
+    "Fields": [
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE6~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6REFERENCE6~+B"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniColor8x6tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~COLOR8X6TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Color8x6rdtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6TOLERANCES~COLOR8X6RDTOLERANCE"
+      },
+      {
+        "Name": "Color8x6plusbtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6TOLERANCES~COLOR8X6PLUSBTOLERANCE"
+      },
+      {
+        "Name": "Color8x6rdstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6TOLERANCES~COLOR8X6RDSTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Color8x6plusbstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~COLOR8X6TOLERANCES~COLOR8X6PLUSBSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniConfigct",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CONFIGCT",
+    "Fields": [
+      {
+        "Name": "Allowablecolorheadgap",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGCT~ALLOWABLECOLORHEADGAP"
+      },
+      {
+        "Name": "Trashignorethreshold",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGCT~TRASHIGNORETHRESHOLD"
+      },
+      {
+        "Name": "Maxvalidsize",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGCT~MAXVALIDSIZE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniConfigmic",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~CONFIGMIC",
+    "Fields": [
+      {
+        "Name": "MinMicMass",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~MIN MIC MASS"
+      },
+      {
+        "Name": "MaxMicMass",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~MAX MIC MASS"
+      },
+      {
+        "Name": "MicronaireMassValues",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~MICRONAIRE MASS VALUES"
+      },
+      {
+        "Name": "MicQualRepCount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~MIC QUAL REP COUNT"
+      },
+      {
+        "Name": "Cmiccottonbaleid",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~CMICCOTTONBALEID"
+      },
+      {
+        "Name": "Imiccottonbaleid",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~IMICCOTTONBALEID"
+      },
+      {
+        "Name": "Cmiccottonref",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~CMICCOTTONREF"
+      },
+      {
+        "Name": "Imiccottonref",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~IMICCOTTONREF"
+      },
+      {
+        "Name": "Cmiccottontol",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~CMICCOTTONTOL"
+      },
+      {
+        "Name": "Imiccottontol",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~CONFIGMIC~IMICCOTTONTOL"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniDrumMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~DRUM MOTOR",
+    "Fields": [
+      {
+        "Name": "Speed",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~SPEED"
+      },
+      {
+        "Name": "Acceleration",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~ACCELERATION"
+      },
+      {
+        "Name": "SampleEndPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~SAMPLE END POSITION"
+      },
+      {
+        "Name": "CleanCardEndPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~CLEAN CARD END POSITION"
+      },
+      {
+        "Name": "VacuumFibersPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~VACUUM FIBERS POSITION"
+      },
+      {
+        "Name": "StartDoffCombPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~START DOFF COMB POSITION"
+      },
+      {
+        "Name": "EndDoffCombPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~END DOFF COMB POSITION"
+      },
+      {
+        "Name": "CottonEjectPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~COTTON EJECT POSITION"
+      },
+      {
+        "Name": "VelocityFractionForSampleEject",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~VELOCITY FRACTION FOR SAMPLE EJECT"
+      },
+      {
+        "Name": "SampleEjectAngleRange",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~DRUM MOTOR~SAMPLE EJECT ANGLE RANGE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniGeneral",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~GENERAL",
+    "Fields": [
+      {
+        "Name": "LengthStrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~LENGTH/STRENGTH"
+      },
+      {
+        "Name": "ColorTrash",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~COLOR/TRASH"
+      },
+      {
+        "Name": "ColorTrash2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~COLOR/TRASH 2"
+      },
+      {
+        "Name": "Micronaire",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~MICRONAIRE"
+      },
+      {
+        "Name": "Barcode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~BARCODE"
+      },
+      {
+        "Name": "Moisture",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~GENERAL~MOISTURE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLeafgrade",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LEAFGRADE",
+    "Fields": [
+      {
+        "Name": "Constant",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LEAFGRADE~CONSTANT"
+      },
+      {
+        "Name": "Areacoeff",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LEAFGRADE~AREACOEFF"
+      },
+      {
+        "Name": "Countcoeff",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LEAFGRADE~COUNTCOEFF"
+      },
+      {
+        "Name": "Avgareacoeff",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LEAFGRADE~AVGAREACOEFF"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLengthMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LENGTH MOTOR",
+    "Fields": [
+      {
+        "Name": "Speed",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~SPEED"
+      },
+      {
+        "Name": "Acceleration",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~ACCELERATION"
+      },
+      {
+        "Name": "Comb1FrontPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~COMB 1 FRONT POSITION"
+      },
+      {
+        "Name": "Comb2FrontPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~COMB 2 FRONT POSITION"
+      },
+      {
+        "Name": "EncoderInitialOffset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~ENCODER INITIAL OFFSET"
+      },
+      {
+        "Name": "GoHomePositionFor1stComb",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~GO HOME POSITION FOR 1ST COMB"
+      },
+      {
+        "Name": "CombToBreakerGap",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LENGTH MOTOR~COMB TO BREAKER GAP"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE2",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE2~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE2~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE2~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE2~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE2~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE3",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE3~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE3~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE3~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE3~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE3~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE4",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE4~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE4~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE4~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE4~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE4~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE5",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE5~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE5~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE5~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE5~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE5~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE6",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE6~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE6~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE6~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE6~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE6~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference7",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE7",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE7~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE7~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE7~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE7~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE7~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8reference8",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE8",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE8~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE8~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE8~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE8~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8REFERENCE8~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniLs8x8tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~LS8X8TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Ls8x8lentolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8LENTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8strentolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8STRENTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8uniftolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8UNIFTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8sfitolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8SFITOLERANCE"
+      },
+      {
+        "Name": "Ls8x8mictolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8MICTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8lenstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8LENSTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8strenstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8STRENSTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8unifstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8UNIFSTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8sfistddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8SFISTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Ls8x8micstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~LS8X8TOLERANCES~LS8X8MICSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMeasurement",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MEASUREMENT",
+    "Fields": [
+      {
+        "Name": "LengthStrength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~LENGTH/STRENGTH"
+      },
+      {
+        "Name": "ColorTrash",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~COLOR/TRASH"
+      },
+      {
+        "Name": "ColorTrash2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~COLOR/TRASH 2"
+      },
+      {
+        "Name": "Micronaire",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~MICRONAIRE"
+      },
+      {
+        "Name": "Barcode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~BARCODE"
+      },
+      {
+        "Name": "Moisture",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~MOISTURE"
+      },
+      {
+        "Name": "Inb",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~INB"
+      },
+      {
+        "Name": "Lowamtbalecnt",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~LOWAMTBALECNT"
+      },
+      {
+        "Name": "Highamtbalecnt",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~HIGHAMTBALECNT"
+      },
+      {
+        "Name": "Nb",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~NB"
+      },
+      {
+        "Name": "Barkgrass",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MEASUREMENT~BARKGRASS"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference1",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE1",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE1~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE1~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE2",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE2~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE2~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE3",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE3~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE3~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE4",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE4~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE4~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE5",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE5~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE5~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE6",
+    "Fields": [
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE6~BALE ID"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6REFERENCE6~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniMic8x6tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~MIC8X6TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Mic8x6mictolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6TOLERANCES~MIC8X6MICTOLERANCE"
+      },
+      {
+        "Name": "Mic8x6micstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~MIC8X6TOLERANCES~MIC8X6MICSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniOverrides",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~OVERRIDES",
+    "Fields": [
+      {
+        "Name": "Inhouse",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~OVERRIDES~INHOUSE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniRetest",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~RETEST",
+    "Fields": [
+      {
+        "Name": "Betweensides",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~BETWEENSIDES"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~LENGTH"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~STRENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~UNIFORMITY"
+      },
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~RD"
+      },
+      {
+        "Name": "B",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~+B"
+      },
+      {
+        "Name": "TrashArea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~RETEST~TRASH AREA"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniSocParameters",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~SOC PARAMETERS",
+    "Fields": [
+      {
+        "Name": "LSControlBoardDebugMode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~L/S CONTROL BOARD DEBUG MODE"
+      },
+      {
+        "Name": "LSPushButtonActivateTime",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~L/S PUSH BUTTON ACTIVATE TIME"
+      },
+      {
+        "Name": "RearJawDelayTime",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~REAR JAW DELAY TIME"
+      },
+      {
+        "Name": "TemperatureHumidityProbeInsideCabinet",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~TEMPERATURE HUMIDITY PROBE INSIDE CABINET"
+      },
+      {
+        "Name": "TemperatureHumidityProbeOutsideCabinet",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~TEMPERATURE HUMIDITY PROBE OUTSIDE CABINET"
+      },
+      {
+        "Name": "BlowerSpeed",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~BLOWER SPEED"
+      },
+      {
+        "Name": "SampleEject",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~SAMPLE EJECT"
+      },
+      {
+        "Name": "MicControlBoardDebugMode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~MIC CONTROL BOARD DEBUG MODE"
+      },
+      {
+        "Name": "CTPushButtonActivateTime",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~C/T PUSH BUTTON ACTIVATE TIME"
+      },
+      {
+        "Name": "TimeDelayForMicMeasurement",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~TIME DELAY FOR MIC MEASUREMENT"
+      },
+      {
+        "Name": "ColorHeadDownTimeDelay",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~COLOR HEAD DOWN TIME DELAY"
+      },
+      {
+        "Name": "TimeDelayForMicAirSetup",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~TIME DELAY FOR MIC AIR SETUP"
+      },
+      {
+        "Name": "CloseCombsBeforeCarding",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~CLOSE COMBS BEFORE CARDING"
+      },
+      {
+        "Name": "UsdaUpperColorHeadSafetyFlapInstalled",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~USDA UPPER COLOR HEAD SAFETY FLAP INSTALLED"
+      },
+      {
+        "Name": "StandardRearJawDelayTime",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~STANDARD REAR JAW DELAY TIME"
+      },
+      {
+        "Name": "LSVacuumThresholdADValue",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~L/S VACUUM THRESHOLD A/D VALUE"
+      },
+      {
+        "Name": "LSVacuumPressureOffsetADValue",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~L/S VACUUM PRESSURE OFFSET A/D VALUE"
+      },
+      {
+        "Name": "Miccabinetmodel",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~MICCABINETMODEL"
+      },
+      {
+        "Name": "Automicflag",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~AUTOMICFLAG"
+      },
+      {
+        "Name": "Automicngmodel",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~AUTOMICNGMODEL"
+      },
+      {
+        "Name": "ColorTrayReverseTime",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~COLOR TRAY REVERSE TIME"
+      },
+      {
+        "Name": "Miccondensedairbankinstalled",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~MICCONDENSEDAIRBANKINSTALLED"
+      },
+      {
+        "Name": "Micchgapsensorinstalled",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SOC PARAMETERS~MICCHGAPSENSORINSTALLED"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniStrengthMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~STRENGTH MOTOR",
+    "Fields": [
+      {
+        "Name": "ForwardInSensorSteps",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~STRENGTH MOTOR~FORWARD IN-SENSOR STEPS"
+      },
+      {
+        "Name": "ForwardNotInSensorSteps",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~STRENGTH MOTOR~FORWARD NOT IN-SENSOR STEPS"
+      },
+      {
+        "Name": "ReverseInSensorSteps",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~STRENGTH MOTOR~REVERSE IN-SENSOR STEPS"
+      },
+      {
+        "Name": "ReverseNotInSensorSteps",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~STRENGTH MOTOR~REVERSE NOT IN-SENSOR STEPS"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniSysOptions",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~SYS_OPTIONS",
+    "Fields": [
+      {
+        "Name": "Loglsmodfibrograms",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~LOGLSMODFIBROGRAMS"
+      },
+      {
+        "Name": "Mpws",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~MPWS"
+      },
+      {
+        "Name": "Maxbalesinresultlist",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~MAXBALESINRESULTLIST"
+      },
+      {
+        "Name": "Requireoperatorpassword",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~REQUIREOPERATORPASSWORD"
+      },
+      {
+        "Name": "Requiresupervisorpassword",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~REQUIRESUPERVISORPASSWORD"
+      },
+      {
+        "Name": "Sendstatusfile",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~SENDSTATUSFILE"
+      },
+      {
+        "Name": "Emulatehardware",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~EMULATEHARDWARE"
+      },
+      {
+        "Name": "Emulatecolorhead",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~EMULATECOLORHEAD"
+      },
+      {
+        "Name": "Fgrdelaycount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~FGRDELAYCOUNT"
+      },
+      {
+        "Name": "Hardiomode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~HARDIOMODE"
+      },
+      {
+        "Name": "Lscontrollerused",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~LSCONTROLLERUSED"
+      },
+      {
+        "Name": "Miccontrollerused",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~MICCONTROLLERUSED"
+      },
+      {
+        "Name": "Micscaleused",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~MICSCALEUSED"
+      },
+      {
+        "Name": "Balebcrused",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~BALEBCRUSED"
+      },
+      {
+        "Name": "Tracelevel",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~TRACELEVEL"
+      },
+      {
+        "Name": "Showbalecount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~SHOWBALECOUNT"
+      },
+      {
+        "Name": "Moistdevused",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~MOISTDEVUSED"
+      },
+      {
+        "Name": "Initinstrumentonstartup",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~SYS_OPTIONS~INITINSTRUMENTONSTARTUP"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTestConfiguration",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TEST CONFIGURATION",
+    "Fields": [
+      {
+        "Name": "Hvimillversion",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~HVIMILLVERSION"
+      },
+      {
+        "Name": "ExternalComputer",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~EXTERNAL COMPUTER"
+      },
+      {
+        "Name": "MicronaireTests",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~MICRONAIRE TESTS"
+      },
+      {
+        "Name": "LengthStrengthTests",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~LENGTH/STRENGTH TESTS"
+      },
+      {
+        "Name": "ColorTrashTests",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~COLOR/TRASH TESTS"
+      },
+      {
+        "Name": "CompanyName",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~COMPANY NAME"
+      },
+      {
+        "Name": "Firststep",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~FIRSTSTEP"
+      },
+      {
+        "Name": "HviLineNumber",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~HVI LINE NUMBER"
+      },
+      {
+        "Name": "M8x8withcolorhead",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~8X8WITHCOLORHEAD"
+      },
+      {
+        "Name": "LowAmount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~LOW_AMOUNT"
+      },
+      {
+        "Name": "HighAmount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~HIGH_AMOUNT"
+      },
+      {
+        "Name": "LowBreakAmount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~LOW_BREAK_AMOUNT"
+      },
+      {
+        "Name": "HighBreakAmount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~HIGH_BREAK_AMOUNT"
+      },
+      {
+        "Name": "Cottontype",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~COTTONTYPE"
+      },
+      {
+        "Name": "Saveofflinedata",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~SAVEOFFLINEDATA"
+      },
+      {
+        "Name": "Moisturetare",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~MOISTURETARE"
+      },
+      {
+        "Name": "Moisturetarerange",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~MOISTURETARERANGE"
+      },
+      {
+        "Name": "Moisturecheckrange",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~MOISTURECHECKRANGE"
+      },
+      {
+        "Name": "Trashmeter",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~TRASHMETER"
+      },
+      {
+        "Name": "HighAmountPima",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TEST CONFIGURATION~HIGH_AMOUNT_PIMA"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTimeouts",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TIMEOUTS",
+    "Fields": [
+      {
+        "Name": "Holdstatusfiletimeout",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TIMEOUTS~HOLDSTATUSFILETIMEOUT"
+      },
+      {
+        "Name": "Idlecalibresettimeout",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TIMEOUTS~IDLECALIBRESETTIMEOUT"
+      },
+      {
+        "Name": "Lscalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TIMEOUTS~LSCALIBRATIONTIMEOUT"
+      },
+      {
+        "Name": "Ctcalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TIMEOUTS~CTCALIBRATIONTIMEOUT"
+      },
+      {
+        "Name": "Miccalibrationtimeout",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TIMEOUTS~MICCALIBRATIONTIMEOUT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrackMotor",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRACK MOTOR",
+    "Fields": [
+      {
+        "Name": "Speed",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~SPEED"
+      },
+      {
+        "Name": "Acceleration",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~ACCELERATION"
+      },
+      {
+        "Name": "DrumPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~DRUM POSITION"
+      },
+      {
+        "Name": "BrushPosition",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~BRUSH POSITION"
+      },
+      {
+        "Name": "LS1Position",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~L/S 1 POSITION"
+      },
+      {
+        "Name": "LS2Position",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRACK MOTOR~L/S 2 POSITION"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE",
+    "Fields": [
+      {
+        "Name": "Referenceset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE~REFERENCESET"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference1",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE1",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE1~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE1~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference10",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE10",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE10~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE10~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference11",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE11",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE11~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE11~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference12",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE12",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE12~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE12~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE2",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE2~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE2~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE3",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE3~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE3~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE4",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE4~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE4~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE5",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE5~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE5~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE6",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE6~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE6~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference7",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE7",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE7~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE7~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference8",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE8",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE8~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE8~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12reference9",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE9",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE9~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12REFERENCE9~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x12tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X12TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Trash8x12areatolerance1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE1"
+      },
+      {
+        "Name": "Trash8x12areatolerance2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE2"
+      },
+      {
+        "Name": "Trash8x12areatolerance3",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE3"
+      },
+      {
+        "Name": "Trash8x12areatolerance4",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE4"
+      },
+      {
+        "Name": "Trash8x12areatolerance5",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE5"
+      },
+      {
+        "Name": "Trash8x12areatolerance6",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE6"
+      },
+      {
+        "Name": "Trash8x12areatolerance7",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE7"
+      },
+      {
+        "Name": "Trash8x12areatolerance8",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE8"
+      },
+      {
+        "Name": "Trash8x12areatolerance9",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE9"
+      },
+      {
+        "Name": "Trash8x12areatolerance10",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE10"
+      },
+      {
+        "Name": "Trash8x12areatolerance11",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE11"
+      },
+      {
+        "Name": "Trash8x12areatolerance12",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREATOLERANCE12"
+      },
+      {
+        "Name": "Trash8x12counttolerance1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE1"
+      },
+      {
+        "Name": "Trash8x12counttolerance2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE2"
+      },
+      {
+        "Name": "Trash8x12counttolerance3",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE3"
+      },
+      {
+        "Name": "Trash8x12counttolerance4",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE4"
+      },
+      {
+        "Name": "Trash8x12counttolerance5",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE5"
+      },
+      {
+        "Name": "Trash8x12counttolerance6",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE6"
+      },
+      {
+        "Name": "Trash8x12counttolerance7",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE7"
+      },
+      {
+        "Name": "Trash8x12counttolerance8",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE8"
+      },
+      {
+        "Name": "Trash8x12counttolerance9",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE9"
+      },
+      {
+        "Name": "Trash8x12counttolerance10",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE10"
+      },
+      {
+        "Name": "Trash8x12counttolerance11",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE11"
+      },
+      {
+        "Name": "Trash8x12counttolerance12",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTTOLERANCE12"
+      },
+      {
+        "Name": "Trash8x12areastddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12AREASTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Trash8x12countstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X12TOLERANCES~TRASH8X12COUNTSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE",
+    "Fields": [
+      {
+        "Name": "Referenceset",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE~REFERENCESET"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference1",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE1",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE1~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE1~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference2",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE2",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE2~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE2~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference3",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE3",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE3~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE3~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference4",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE4",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE4~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE4~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference5",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE5",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE5~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE5~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6reference6",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE6",
+    "Fields": [
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE6~TRASHAREA"
+      },
+      {
+        "Name": "Trashcount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6REFERENCE6~TRASHCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrash8x6tolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASH8X6TOLERANCES",
+    "Fields": [
+      {
+        "Name": "Trash8x6areatolerance1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE1"
+      },
+      {
+        "Name": "Trash8x6areatolerance2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE2"
+      },
+      {
+        "Name": "Trash8x6areatolerance3",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE3"
+      },
+      {
+        "Name": "Trash8x6areatolerance4",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE4"
+      },
+      {
+        "Name": "Trash8x6areatolerance5",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE5"
+      },
+      {
+        "Name": "Trash8x6areatolerance6",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE6"
+      },
+      {
+        "Name": "Trash8x6areatolerance7",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREATOLERANCE7"
+      },
+      {
+        "Name": "Trash8x6counttolerance1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE1"
+      },
+      {
+        "Name": "Trash8x6counttolerance2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE2"
+      },
+      {
+        "Name": "Trash8x6counttolerance3",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE3"
+      },
+      {
+        "Name": "Trash8x6counttolerance4",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE4"
+      },
+      {
+        "Name": "Trash8x6counttolerance5",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE5"
+      },
+      {
+        "Name": "Trash8x6counttolerance6",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE6"
+      },
+      {
+        "Name": "Trash8x6counttolerance7",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE7"
+      },
+      {
+        "Name": "Trash8x6counttolerance8",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE8"
+      },
+      {
+        "Name": "Trash8x6counttolerance9",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE9"
+      },
+      {
+        "Name": "Trash8x6counttolerance10",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTTOLERANCE10"
+      },
+      {
+        "Name": "Trash8x6areastddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6AREASTDDEVTOLERANCE"
+      },
+      {
+        "Name": "Trash8x6countstddevtolerance",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASH8X6TOLERANCES~TRASH8X6COUNTSTDDEVTOLERANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniTrashhistogram",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~TRASHHISTOGRAM",
+    "Fields": [
+      {
+        "Name": "Type",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~TYPE"
+      },
+      {
+        "Name": "Maxvalidsize",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~MAXVALIDSIZE"
+      },
+      {
+        "Name": "Bin1",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN1"
+      },
+      {
+        "Name": "Bin2",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN2"
+      },
+      {
+        "Name": "Bin3",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN3"
+      },
+      {
+        "Name": "Bin4",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN4"
+      },
+      {
+        "Name": "Bin5",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN5"
+      },
+      {
+        "Name": "Bin6",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN6"
+      },
+      {
+        "Name": "Bin7",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN7"
+      },
+      {
+        "Name": "Bin8",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN8"
+      },
+      {
+        "Name": "Bin9",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN9"
+      },
+      {
+        "Name": "Bin10",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN10"
+      },
+      {
+        "Name": "Bin11",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN11"
+      },
+      {
+        "Name": "Bin12",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN12"
+      },
+      {
+        "Name": "Bin13",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN13"
+      },
+      {
+        "Name": "Bin14",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN14"
+      },
+      {
+        "Name": "Bin15",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN15"
+      },
+      {
+        "Name": "Bin16",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN16"
+      },
+      {
+        "Name": "Bin17",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN17"
+      },
+      {
+        "Name": "Bin18",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN18"
+      },
+      {
+        "Name": "Bin19",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN19"
+      },
+      {
+        "Name": "Bin20",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BIN20"
+      },
+      {
+        "Name": "BaleId",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~BALE ID"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~STRENGTH"
+      },
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~LENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~UNIFORMITY"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~TRASHHISTOGRAM~MIC"
+      }
+    ]
+  },
+  {
+    "Name": "Hvi1000IniUsdasignon",
+    "Description": "Temp_Description",
+    "Qualified_section": "HVI1000.INI~USDASIGNON",
+    "Fields": [
+      {
+        "Name": "Testmode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~TESTMODE"
+      },
+      {
+        "Name": "Operator",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~OPERATOR"
+      },
+      {
+        "Name": "Certificator",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~CERTIFICATOR"
+      },
+      {
+        "Name": "Supervisor",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~SUPERVISOR"
+      },
+      {
+        "Name": "Lot",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~LOT"
+      },
+      {
+        "Name": "Form1mode",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~FORM1MODE"
+      },
+      {
+        "Name": "Samplecount",
+        "Description": "Temp_Description",
+        "Key": "HVI1000.INI~USDASIGNON~SAMPLECOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "LscalconfigIniCaliblstolerances",
+    "Description": "Temp_Description",
+    "Qualified_section": "LSCALCONFIG.INI~CALIBLSTOLERANCES",
+    "Fields": [
+      {
+        "Name": "Combtoleranceuniformity",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~COMBTOLERANCEUNIFORMITY"
+      },
+      {
+        "Name": "Combtolerancelength",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~COMBTOLERANCELENGTH"
+      },
+      {
+        "Name": "Combtolerancestrength",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~COMBTOLERANCESTRENGTH"
+      },
+      {
+        "Name": "Validcombsrequired",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~VALIDCOMBSREQUIRED"
+      },
+      {
+        "Name": "Usecalibrationhistory",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~USECALIBRATIONHISTORY"
+      },
+      {
+        "Name": "Historytolerancelength",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~HISTORYTOLERANCELENGTH"
+      },
+      {
+        "Name": "Historytoleranceuniformity",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~HISTORYTOLERANCEUNIFORMITY"
+      },
+      {
+        "Name": "Historytolerancestrength",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~HISTORYTOLERANCESTRENGTH"
+      },
+      {
+        "Name": "Historyweighting",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~HISTORYWEIGHTING"
+      },
+      {
+        "Name": "Lengthtolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~LENGTHTOLERANCE"
+      },
+      {
+        "Name": "Lengthrangetolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~LENGTHRANGETOLERANCE"
+      },
+      {
+        "Name": "Strengthtolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~STRENGTHTOLERANCE"
+      },
+      {
+        "Name": "Strengthrangetolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~STRENGTHRANGETOLERANCE"
+      },
+      {
+        "Name": "Uniftolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~UNIFTOLERANCE"
+      },
+      {
+        "Name": "Unifrangetolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~UNIFRANGETOLERANCE"
+      },
+      {
+        "Name": "Sfitolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~SFITOLERANCE"
+      },
+      {
+        "Name": "Elongationtolerance",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~ELONGATIONTOLERANCE"
+      },
+      {
+        "Name": "Samplesperdooropen",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~SAMPLESPERDOOROPEN"
+      },
+      {
+        "Name": "Lsstrengthoffsetmin",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~LSSTRENGTHOFFSETMIN"
+      },
+      {
+        "Name": "Lsstrengthoffsetmax",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~LSSTRENGTHOFFSETMAX"
+      },
+      {
+        "Name": "Basiccalcombcount",
+        "Description": "Temp_Description",
+        "Key": "LSCALCONFIG.INI~CALIBLSTOLERANCES~BASICCALCOMBCOUNT"
+      }
+    ]
+  },
+  {
+    "Name": "PasswordsIniFhdhehfgch",
+    "Description": "Temp_Description",
+    "Qualified_section": "PASSWORDS.INI~FHDHEHFGCH",
+    "Fields": [
+      {
+        "Name": "Supervisors",
+        "Description": "Temp_Description",
+        "Key": "PASSWORDS.INI~FHDHEHFGCH~SUPERVISORS"
+      },
+      {
+        "Name": "Technicians",
+        "Description": "Temp_Description",
+        "Key": "PASSWORDS.INI~FHDHEHFGCH~TECHNICIANS"
+      }
+    ]
+  },
+  {
+    "Name": "PasswordsIniLabsupervisors",
+    "Description": "Temp_Description",
+    "Qualified_section": "PASSWORDS.INI~LABSUPERVISORS",
+    "Fields": [
+      {
+        "Name": "Fhdhehfgch",
+        "Description": "Temp_Description",
+        "Key": "PASSWORDS.INI~LABSUPERVISORS~FHDHEHFGCH"
+      }
+    ]
+  },
+  {
+    "Name": "PasswordsIniSupervisors",
+    "Description": "Temp_Description",
+    "Qualified_section": "PASSWORDS.INI~SUPERVISORS",
+    "Fields": [
+      {
+        "Name": "Fhdhehfgch",
+        "Description": "Temp_Description",
+        "Key": "PASSWORDS.INI~SUPERVISORS~FHDHEHFGCH"
+      }
+    ]
+  },
+  {
+    "Name": "PasswordsIniTechnicians",
+    "Description": "Temp_Description",
+    "Qualified_section": "PASSWORDS.INI~TECHNICIANS",
+    "Fields": [
+      {
+        "Name": "Fhdhehfgch",
+        "Description": "Temp_Description",
+        "Key": "PASSWORDS.INI~TECHNICIANS~FHDHEHFGCH"
+      }
+    ]
+  },
+  {
+    "Name": "PimaoffsetsIniOffsets",
+    "Description": "Temp_Description",
+    "Qualified_section": "PIMAOFFSETS.INI~OFFSETS",
+    "Fields": [
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "PIMAOFFSETS.INI~OFFSETS~LENGTH"
+      }
+    ]
+  },
+  {
+    "Name": "UplandinhousebalesIniAutooffsets",
+    "Description": "Temp_Description",
+    "Qualified_section": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS",
+    "Fields": [
+      {
+        "Name": "Offsetweighting1",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING1"
+      },
+      {
+        "Name": "Offsetweighting2",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING2"
+      },
+      {
+        "Name": "Offsetweighting3",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING3"
+      },
+      {
+        "Name": "Offsetweighting4",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING4"
+      },
+      {
+        "Name": "Offsetweighting5",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING5"
+      },
+      {
+        "Name": "Offsetweighting6",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING6"
+      },
+      {
+        "Name": "Offsetweighting7",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING7"
+      },
+      {
+        "Name": "Offsetweighting8",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~OFFSETWEIGHTING8"
+      },
+      {
+        "Name": "Lengthtol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~LENGTHTOL"
+      },
+      {
+        "Name": "Mictol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~MICTOL"
+      },
+      {
+        "Name": "Strengthtol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~STRENGTHTOL"
+      },
+      {
+        "Name": "Uniformitytol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~UNIFORMITYTOL"
+      },
+      {
+        "Name": "Moisturetol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~MOISTURETOL"
+      },
+      {
+        "Name": "Sfitol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~SFITOL"
+      },
+      {
+        "Name": "Rdtol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~RDTOL"
+      },
+      {
+        "Name": "Pbtol",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~PBTOL"
+      },
+      {
+        "Name": "Lengthlimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~LENGTHLIMIT"
+      },
+      {
+        "Name": "Miclimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~MICLIMIT"
+      },
+      {
+        "Name": "Strengthlimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~STRENGTHLIMIT"
+      },
+      {
+        "Name": "Uniformitylimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~UNIFORMITYLIMIT"
+      },
+      {
+        "Name": "Moisturelimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~MOISTURELIMIT"
+      },
+      {
+        "Name": "Sfilimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~SFILIMIT"
+      },
+      {
+        "Name": "Rdlimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~RDLIMIT"
+      },
+      {
+        "Name": "Pblimit",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS~PBLIMIT"
+      }
+    ]
+  },
+  {
+    "Name": "UplandinhousebalesIniInhousetest",
+    "Description": "Temp_Description",
+    "Qualified_section": "UPLANDINHOUSEBALES.INI~INHOUSETEST",
+    "Fields": [
+      {
+        "Name": "Lengthstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~LENGTHSTANDARD"
+      },
+      {
+        "Name": "Micstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~MICSTANDARD"
+      },
+      {
+        "Name": "Strengthstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~STRENGTHSTANDARD"
+      },
+      {
+        "Name": "Uniformitystandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~UNIFORMITYSTANDARD"
+      },
+      {
+        "Name": "Moisturestandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~MOISTURESTANDARD"
+      },
+      {
+        "Name": "Sfistandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~SFISTANDARD"
+      },
+      {
+        "Name": "Rdstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~RDSTANDARD"
+      },
+      {
+        "Name": "Pbstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~PBSTANDARD"
+      },
+      {
+        "Name": "Trashareastandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TRASHAREASTANDARD"
+      },
+      {
+        "Name": "Trashcountstandard",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TRASHCOUNTSTANDARD"
+      },
+      {
+        "Name": "Offsetstdbaleid",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~OFFSETSTDBALEID"
+      },
+      {
+        "Name": "Trashtileid",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TRASHTILEID"
+      },
+      {
+        "Name": "Usecottonortiles",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~USECOTTONORTILES"
+      },
+      {
+        "Name": "Lengthtolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~LENGTHTOLERANCE"
+      },
+      {
+        "Name": "Uniformitytolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~UNIFORMITYTOLERANCE"
+      },
+      {
+        "Name": "Strengthtolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~STRENGTHTOLERANCE"
+      },
+      {
+        "Name": "Mictolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~MICTOLERANCE"
+      },
+      {
+        "Name": "Trashareatolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TRASHAREATOLERANCE"
+      },
+      {
+        "Name": "Trashcounttolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TRASHCOUNTTOLERANCE"
+      },
+      {
+        "Name": "Rdtolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~RDTOLERANCE"
+      },
+      {
+        "Name": "Pbtolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~PBTOLERANCE"
+      },
+      {
+        "Name": "Sfitolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~SFITOLERANCE"
+      },
+      {
+        "Name": "Moisturetolerance",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~MOISTURETOLERANCE"
+      },
+      {
+        "Name": "Validsamplecount",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~VALIDSAMPLECOUNT"
+      },
+      {
+        "Name": "Testtimeout",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TESTTIMEOUT"
+      },
+      {
+        "Name": "Previewtrash",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~PREVIEWTRASH"
+      },
+      {
+        "Name": "Testexpiration",
+        "Description": "Temp_Description",
+        "Key": "UPLANDINHOUSEBALES.INI~INHOUSETEST~TESTEXPIRATION"
+      }
+    ]
+  },
+  {
+    "Name": "UplandoffsetsIniAutooffsets",
+    "Description": "Temp_Description",
+    "Qualified_section": "UPLANDOFFSETS.INI~AUTOOFFSETS",
+    "Fields": [
+      {
+        "Name": "Offset30",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_0"
+      },
+      {
+        "Name": "Offset31",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_1"
+      },
+      {
+        "Name": "Offset32",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_2"
+      },
+      {
+        "Name": "Offset33",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_3"
+      },
+      {
+        "Name": "Offset34",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_4"
+      },
+      {
+        "Name": "Offset35",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_5"
+      },
+      {
+        "Name": "Offset36",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_6"
+      },
+      {
+        "Name": "Offset37",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~OFFSET_3_7"
+      },
+      {
+        "Name": "Autooffsetindex3",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETINDEX_3"
+      },
+      {
+        "Name": "Autooffsetcount3",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETCOUNT_3"
+      },
+      {
+        "Name": "Autooffsetenable0",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE0"
+      },
+      {
+        "Name": "Autooffsetenable1",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE1"
+      },
+      {
+        "Name": "Autooffsetenable2",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE2"
+      },
+      {
+        "Name": "Autooffsetenable3",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE3"
+      },
+      {
+        "Name": "Autooffsetenable4",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE4"
+      },
+      {
+        "Name": "Autooffsetenable5",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE5"
+      },
+      {
+        "Name": "Autooffsetenable6",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE6"
+      },
+      {
+        "Name": "Autooffsetenable7",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETENABLE7"
+      },
+      {
+        "Name": "Autooffsetmult1",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETMULT1"
+      },
+      {
+        "Name": "Autooffsetmult2",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~AUTOOFFSETS~AUTOOFFSETMULT2"
+      }
+    ]
+  },
+  {
+    "Name": "UplandoffsetsIniOffsets",
+    "Description": "Temp_Description",
+    "Qualified_section": "UPLANDOFFSETS.INI~OFFSETS",
+    "Fields": [
+      {
+        "Name": "Length",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~LENGTH"
+      },
+      {
+        "Name": "Strength",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~STRENGTH"
+      },
+      {
+        "Name": "Uniformity",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~UNIFORMITY"
+      },
+      {
+        "Name": "Sfi",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~SFI"
+      },
+      {
+        "Name": "Mic",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~MIC"
+      },
+      {
+        "Name": "Rd",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~RD"
+      },
+      {
+        "Name": "Plusb",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~PLUSB"
+      },
+      {
+        "Name": "Trasharea",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~TRASHAREA"
+      },
+      {
+        "Name": "Moisture",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~MOISTURE"
+      },
+      {
+        "Name": "Sid",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~SID"
+      },
+      {
+        "Name": "Sed",
+        "Description": "Temp_Description",
+        "Key": "UPLANDOFFSETS.INI~OFFSETS~SED"
+      }
+    ]
+  }
+]
