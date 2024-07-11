@@ -26,6 +26,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let filename = format!("./test_dir/{}.cs", qsect.slice_class_name());
         let mut file = File::create(filename)?;
         qsect.write_slice_class_def(&mut file)?;
+
+        let testfilename = format!("./test_test_dir/{}Test.cs", qsect.slice_class_name());
+        let mut testfile = File::create(testfilename)?;
+        qsect.write_test_class_def(&mut testfile)?;
         /*
         println!(
             "\"{}\" => {}.Factory(this.HVIs),",
@@ -81,7 +85,7 @@ namespace Uster.USDAControlCenter2.ViewModel.HVISlice;"
         write!(
             w,
             "
-public class {}: ObservableObject, IConstructWithHVI<{}>",
+public class {} : ObservableObject, IConstructWithHVI<{}>",
             self.slice_class_name(),
             self.slice_class_name(),
         )?;
@@ -149,7 +153,6 @@ public class {}: ObservableObject, IConstructWithHVI<{}>",
     }}"
         )?;
 
-
         // UpdateModel
         write!(
             w,
@@ -170,15 +173,22 @@ public class {}: ObservableObject, IConstructWithHVI<{}>",
         // Meat
         for (key, _) in &self.keys {
             let camelcase = key_to_camelcase(&key);
+            let private = to_private(&camelcase);
+            let key = format!("{}~{}", self.qualified_section, key);
 
             write!(
                 w,
                 "
-        hvi.ConfigData.ConfigEntries.TryGetValue(\"{}\", out this.{});
-        this.OnPropertyChanged(nameof(this.{}));",
-                format!("{}~{}", self.qualified_section, key),
-                to_private(&camelcase),
-                camelcase,
+        if (this.{private} is null)
+        {{
+            hvi.ConfigData.ConfigEntries.TryGetValue(\"{key}\", out this.{private});
+            this.OnPropertyChanged(nameof(this.{camelcase}));
+        }}
+        else if (this.{private}.DirtyDisplay)
+        {{
+            this.{private}.ClearDirtyDisplay();
+            this.OnPropertyChanged(nameof(this.{camelcase}));
+        }}\n",
             )?;
         }
 
@@ -204,27 +214,158 @@ public class {}: ObservableObject, IConstructWithHVI<{}>",
     public string {camelcase}
     {{
         get => this.{private}?.DirtyData ?? \"No Data\";
-        set 
+        set
         {{
             if (this.{private} is null)
             {{
                 return;
             }}
 
-            this.SetProperty(ref this.{private}.DirtyData, value);
+            this.{private}.DirtyData = value;
+            this.OnPropertyChanged();
         }}
-    }}")?;
+    }}"
+            )?;
         }
 
         writeln!(
             w,
             "
-    public static {} MakeWithHVI(HVI hvi) {{
+    public static {} MakeWithHVI(HVI hvi)
+    {{
         return new {}(hvi);
     }}",
             self.slice_class_name(),
             self.slice_class_name(),
         )?;
+
+        // post
+        writeln!(w, "}}")?;
+
+        Ok(())
+    }
+
+    fn write_test_class_def(&self, w: &mut dyn io::Write) -> io::Result<()> {
+
+        let slice_class_name = self.slice_class_name();
+        let test_class_name = self.slice_class_name() + "Test";
+
+        // pre
+        writeln!(
+            w,
+            "using System.Net;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Uster.USDAControlCenter2.Model;
+using Uster.USDAControlCenter2.ViewModel.HVISlice;
+
+namespace Uster.USDAControlCenter2Tests.ViewModel.HVISlice;
+
+[TestClass]
+public class {test_class_name}
+{{"
+        )?;
+
+        // Loop all the fields for testing
+        for (key, _) in &self.keys {
+            let line = 1;
+            let camelcase = key_to_camelcase(&key);
+            let private = to_private(&camelcase);
+            let key = format!("{}~{}", self.qualified_section, key);
+
+            writeln!(
+                w,
+                "
+    [TestMethod]
+    public void {camelcase}Test()
+    {{
+        var hvi = new HVI(
+            {line},
+            IPAddress.Any,
+            \"version\",
+            \"firmware\",
+            \"dirtyBit\",
+            5000 + {line}
+        );
+
+        var update_hvi1 = new HVI(
+            1,
+            IPAddress.Any,
+            \"version\",
+            \"firmware\",
+            \"dirtyBit\",
+            5000 + 3
+        )
+        {{
+            ConfigData = new ConfigDictionary
+            {{
+                ConfigEntries = new Dictionary<string, ConfigEntry>
+                {{
+                    {{
+                    \"{key}\",
+                    new ConfigEntry(string.Empty, string.Empty, string.Empty, \"TestData1\")
+                    }}
+                }}
+            }}
+        }};
+
+        var update_hvi2 = new HVI(
+            1,
+            IPAddress.Any,
+            \"version\",
+            \"firmware\",
+            \"dirtyBit\",
+            5000 + 3
+        )
+        {{
+            ConfigData = new ConfigDictionary
+            {{
+                ConfigEntries = new Dictionary<string, ConfigEntry>
+                {{
+                    {{
+                        \"{key}\",
+                        new ConfigEntry(string.Empty, string.Empty, string.Empty, \"TestData2\")
+                    }}
+                }}
+            }}
+        }};
+
+        var cut = {slice_class_name}.MakeWithHVI(hvi);
+
+        var configEntryUpdated = 0;
+        cut.PropertyChanged += (_, args) =>
+        {{
+            if (args.PropertyName != nameof(cut.{camelcase}))
+            {{
+                return;
+            }}
+            configEntryUpdated++;
+        }};
+
+        Assert.AreEqual({line}, cut.Line);
+
+        Assert.AreEqual(\"No Data\", cut.{camelcase});
+
+        cut.{camelcase} = \"This won't write.\";
+
+        Assert.AreEqual(\"No Data\", cut.{camelcase});
+
+        cut.UpdateModel(update_hvi1);
+
+        Assert.AreEqual(\"TestData1\", cut.{camelcase});
+        Assert.AreEqual(1, configEntryUpdated);
+
+        cut.{camelcase} = \"New Data\";
+
+        Assert.AreEqual(\"New Data\", cut.{camelcase});
+
+        cut.UpdateModel(update_hvi2);
+
+        Assert.AreEqual(\"New Data\", cut.{camelcase});
+        Assert.AreEqual(3, configEntryUpdated);
+    }}",
+
+            )?;
+        }
 
         // post
         writeln!(w, "}}")?;
