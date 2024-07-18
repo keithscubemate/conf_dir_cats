@@ -46,7 +46,7 @@ impl Field {
 struct QualifiedSection {
     Name: String,
     Description: String,
-    Qualified_section: String,
+    QualifiedSection: String,
     Fields: Vec<Field>,
 }
 
@@ -58,12 +58,15 @@ impl QualifiedSection {
             .collect::<Vec<_>>()
             .join("");
 
-        let fields = keys.into_iter().map(|(a, b)| Field::new(&a, &b, &qualified_section)).collect();
+        let fields = keys
+            .into_iter()
+            .map(|(a, b)| Field::new(&a, &b, &qualified_section))
+            .collect();
 
         Self {
             Name: name,
             Description: "Temp_Description".to_string(),
-            Qualified_section: qualified_section,
+            QualifiedSection: qualified_section,
             Fields: fields,
         }
     }

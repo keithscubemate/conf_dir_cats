@@ -2,7 +2,7 @@
   {
     "Name": "AmicRdIniMicCalibrationParameterValues",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES",
+    "QualifiedSection": "AMIC-RD.INI~MIC CALIBRATION PARAMETER VALUES",
     "Fields": [
       {
         "Name": "MicChamberSkipADLimit",
@@ -49,7 +49,7 @@
   {
     "Name": "AmicRdIniMicCalibrationStandardValues",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~MIC CALIBRATION STANDARD VALUES",
+    "QualifiedSection": "AMIC-RD.INI~MIC CALIBRATION STANDARD VALUES",
     "Fields": [
       {
         "Name": "MicSensorSpan",
@@ -61,7 +61,7 @@
   {
     "Name": "AmicRdIniMicHardwareSetup",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~MIC HARDWARE SETUP",
+    "QualifiedSection": "AMIC-RD.INI~MIC HARDWARE SETUP",
     "Fields": [
       {
         "Name": "MicDelayTimeInSeconds",
@@ -78,7 +78,7 @@
   {
     "Name": "AmicRdIniMicMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~MIC MOTOR",
+    "QualifiedSection": "AMIC-RD.INI~MIC MOTOR",
     "Fields": [
       {
         "Name": "MaxAmpsToStartMeasurementPosition21000",
@@ -160,7 +160,7 @@
   {
     "Name": "AmicRdIniMicTestSetup",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~MIC TEST SETUP",
+    "QualifiedSection": "AMIC-RD.INI~MIC TEST SETUP",
     "Fields": [
       {
         "Name": "DebugModeForMicYesOrNo",
@@ -172,7 +172,7 @@
   {
     "Name": "AmicRdIniTimeouts",
     "Description": "Temp_Description",
-    "Qualified_section": "AMIC-RD.INI~TIMEOUTS",
+    "QualifiedSection": "AMIC-RD.INI~TIMEOUTS",
     "Fields": [
       {
         "Name": "Idlecalibresettimeout",
@@ -204,7 +204,7 @@
   {
     "Name": "BgUsterIniBGAlgorithm",
     "Description": "Temp_Description",
-    "Qualified_section": "BG_USTER.INI~B/G ALGORITHM",
+    "QualifiedSection": "BG_USTER.INI~B/G ALGORITHM",
     "Fields": [
       {
         "Name": "BGA0",
@@ -266,7 +266,7 @@
   {
     "Name": "BgUsterIniBGCalibration",
     "Description": "Temp_Description",
-    "Qualified_section": "BG_USTER.INI~B/G CALIBRATION",
+    "QualifiedSection": "BG_USTER.INI~B/G CALIBRATION",
     "Fields": [
       {
         "Name": "BGC0L",
@@ -313,7 +313,7 @@
   {
     "Name": "BgUsterIniSetting",
     "Description": "Temp_Description",
-    "Qualified_section": "BG_USTER.INI~SETTING",
+    "QualifiedSection": "BG_USTER.INI~SETTING",
     "Fields": [
       {
         "Name": "ConfigurationType",
@@ -325,7 +325,7 @@
   {
     "Name": "BgUsterIniTrashCalibration",
     "Description": "Temp_Description",
-    "Qualified_section": "BG_USTER.INI~TRASH CALIBRATION",
+    "QualifiedSection": "BG_USTER.INI~TRASH CALIBRATION",
     "Fields": [
       {
         "Name": "Hvi9SquareInchesSpanXL",
@@ -392,7 +392,7 @@
   {
     "Name": "BgUsterIniTrashParameters",
     "Description": "Temp_Description",
-    "Qualified_section": "BG_USTER.INI~TRASH PARAMETERS",
+    "QualifiedSection": "BG_USTER.INI~TRASH PARAMETERS",
     "Fields": [
       {
         "Name": "TrashTileCount",
@@ -409,7 +409,7 @@
   {
     "Name": "CalibrateIniColor",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE.INI~COLOR",
+    "QualifiedSection": "CALIBRATE.INI~COLOR",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -421,7 +421,7 @@
   {
     "Name": "CalibrateIniColorTrash",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE.INI~COLOR-TRASH",
+    "QualifiedSection": "CALIBRATE.INI~COLOR-TRASH",
     "Fields": [
       {
         "Name": "StartX",
@@ -488,7 +488,7 @@
   {
     "Name": "CalibrateIniFramegrabber",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE.INI~FRAMEGRABBER",
+    "QualifiedSection": "CALIBRATE.INI~FRAMEGRABBER",
     "Fields": [
       {
         "Name": "CoarseTune",
@@ -505,7 +505,7 @@
   {
     "Name": "CalibrateIniTrash",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE.INI~TRASH",
+    "QualifiedSection": "CALIBRATE.INI~TRASH",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -517,7 +517,7 @@
   {
     "Name": "CalibrateIniTrashdeflation",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE.INI~TRASHDEFLATION",
+    "QualifiedSection": "CALIBRATE.INI~TRASHDEFLATION",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -529,7 +529,7 @@
   {
     "Name": "Calibrate2IniColor",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE2.INI~COLOR",
+    "QualifiedSection": "CALIBRATE2.INI~COLOR",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -541,7 +541,7 @@
   {
     "Name": "Calibrate2IniColorTrash",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE2.INI~COLOR-TRASH",
+    "QualifiedSection": "CALIBRATE2.INI~COLOR-TRASH",
     "Fields": [
       {
         "Name": "StartX",
@@ -608,7 +608,7 @@
   {
     "Name": "Calibrate2IniFramegrabber",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE2.INI~FRAMEGRABBER",
+    "QualifiedSection": "CALIBRATE2.INI~FRAMEGRABBER",
     "Fields": [
       {
         "Name": "CoarseTune",
@@ -625,7 +625,7 @@
   {
     "Name": "Calibrate2IniTrash",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE2.INI~TRASH",
+    "QualifiedSection": "CALIBRATE2.INI~TRASH",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -637,7 +637,7 @@
   {
     "Name": "Calibrate2IniTrashdeflation",
     "Description": "Temp_Description",
-    "Qualified_section": "CALIBRATE2.INI~TRASHDEFLATION",
+    "QualifiedSection": "CALIBRATE2.INI~TRASHDEFLATION",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -649,7 +649,7 @@
   {
     "Name": "Hvi1000IniAutooffsets",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~AUTOOFFSETS",
+    "QualifiedSection": "HVI1000.INI~AUTOOFFSETS",
     "Fields": [
       {
         "Name": "Useautooffsets",
@@ -661,7 +661,7 @@
   {
     "Name": "Hvi1000IniBrushMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~BRUSH MOTOR",
+    "QualifiedSection": "HVI1000.INI~BRUSH MOTOR",
     "Fields": [
       {
         "Name": "Speed",
@@ -683,7 +683,7 @@
   {
     "Name": "Hvi1000IniCaliblspimareferences",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBLSPIMAREFERENCES",
+    "QualifiedSection": "HVI1000.INI~CALIBLSPIMAREFERENCES",
     "Fields": [
       {
         "Name": "Longlength",
@@ -730,7 +730,7 @@
   {
     "Name": "Hvi1000IniCaliblspimaresult",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBLSPIMARESULT",
+    "QualifiedSection": "HVI1000.INI~CALIBLSPIMARESULT",
     "Fields": [
       {
         "Name": "Lengthoffset",
@@ -777,7 +777,7 @@
   {
     "Name": "Hvi1000IniCaliblsreferences",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBLSREFERENCES",
+    "QualifiedSection": "HVI1000.INI~CALIBLSREFERENCES",
     "Fields": [
       {
         "Name": "Longlength",
@@ -854,7 +854,7 @@
   {
     "Name": "Hvi1000IniCaliblsresult",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBLSRESULT",
+    "QualifiedSection": "HVI1000.INI~CALIBLSRESULT",
     "Fields": [
       {
         "Name": "Lengthoffset",
@@ -991,7 +991,7 @@
   {
     "Name": "Hvi1000IniCaliblssfiresult",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBLSSFIRESULT",
+    "QualifiedSection": "HVI1000.INI~CALIBLSSFIRESULT",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -1003,7 +1003,7 @@
   {
     "Name": "Hvi1000IniCalibmicreferences",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBMICREFERENCES",
+    "QualifiedSection": "HVI1000.INI~CALIBMICREFERENCES",
     "Fields": [
       {
         "Name": "MicHighOrifice",
@@ -1025,7 +1025,7 @@
   {
     "Name": "Hvi1000IniCalibmicresult",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBMICRESULT",
+    "QualifiedSection": "HVI1000.INI~CALIBMICRESULT",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -1047,7 +1047,7 @@
   {
     "Name": "Hvi1000IniCalibmictolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBMICTOLERANCES",
+    "QualifiedSection": "HVI1000.INI~CALIBMICTOLERANCES",
     "Fields": [
       {
         "Name": "Miccalibtol",
@@ -1059,7 +1059,7 @@
   {
     "Name": "Hvi1000IniCalibmoistresult",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CALIBMOISTRESULT",
+    "QualifiedSection": "HVI1000.INI~CALIBMOISTRESULT",
     "Fields": [
       {
         "Name": "Calibratedok",
@@ -1071,7 +1071,7 @@
   {
     "Name": "Hvi1000IniColor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR",
+    "QualifiedSection": "HVI1000.INI~COLOR",
     "Fields": [
       {
         "Name": "RdWhite",
@@ -1143,7 +1143,7 @@
   {
     "Name": "Hvi1000IniColorTrash",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR-TRASH",
+    "QualifiedSection": "HVI1000.INI~COLOR-TRASH",
     "Fields": [
       {
         "Name": "Tilearea",
@@ -1185,7 +1185,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE",
     "Fields": [
       {
         "Name": "Referenceset",
@@ -1197,7 +1197,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference1",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE1",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE1",
     "Fields": [
       {
         "Name": "Rd",
@@ -1214,7 +1214,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference10",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE10",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE10",
     "Fields": [
       {
         "Name": "Rd",
@@ -1231,7 +1231,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference11",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE11",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE11",
     "Fields": [
       {
         "Name": "Rd",
@@ -1248,7 +1248,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference12",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE12",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE12",
     "Fields": [
       {
         "Name": "Rd",
@@ -1265,7 +1265,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE2",
     "Fields": [
       {
         "Name": "Rd",
@@ -1282,7 +1282,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE3",
     "Fields": [
       {
         "Name": "Rd",
@@ -1299,7 +1299,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE4",
     "Fields": [
       {
         "Name": "Rd",
@@ -1316,7 +1316,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE5",
     "Fields": [
       {
         "Name": "Rd",
@@ -1333,7 +1333,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE6",
     "Fields": [
       {
         "Name": "Rd",
@@ -1350,7 +1350,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference7",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE7",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE7",
     "Fields": [
       {
         "Name": "Rd",
@@ -1367,7 +1367,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference8",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE8",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE8",
     "Fields": [
       {
         "Name": "Rd",
@@ -1384,7 +1384,7 @@
   {
     "Name": "Hvi1000IniColor8x12reference9",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12REFERENCE9",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12REFERENCE9",
     "Fields": [
       {
         "Name": "Rd",
@@ -1401,7 +1401,7 @@
   {
     "Name": "Hvi1000IniColor8x12tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X12TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~COLOR8X12TOLERANCES",
     "Fields": [
       {
         "Name": "Color8x12rdtolerance",
@@ -1428,7 +1428,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE",
     "Fields": [
       {
         "Name": "Referenceset",
@@ -1440,7 +1440,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference1",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE1",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE1",
     "Fields": [
       {
         "Name": "Rd",
@@ -1457,7 +1457,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE2",
     "Fields": [
       {
         "Name": "Rd",
@@ -1474,7 +1474,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE3",
     "Fields": [
       {
         "Name": "Rd",
@@ -1491,7 +1491,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE4",
     "Fields": [
       {
         "Name": "Rd",
@@ -1508,7 +1508,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE5",
     "Fields": [
       {
         "Name": "Rd",
@@ -1525,7 +1525,7 @@
   {
     "Name": "Hvi1000IniColor8x6reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6REFERENCE6",
     "Fields": [
       {
         "Name": "Rd",
@@ -1542,7 +1542,7 @@
   {
     "Name": "Hvi1000IniColor8x6tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~COLOR8X6TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~COLOR8X6TOLERANCES",
     "Fields": [
       {
         "Name": "Color8x6rdtolerance",
@@ -1569,7 +1569,7 @@
   {
     "Name": "Hvi1000IniConfigct",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CONFIGCT",
+    "QualifiedSection": "HVI1000.INI~CONFIGCT",
     "Fields": [
       {
         "Name": "Allowablecolorheadgap",
@@ -1591,7 +1591,7 @@
   {
     "Name": "Hvi1000IniConfigmic",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~CONFIGMIC",
+    "QualifiedSection": "HVI1000.INI~CONFIGMIC",
     "Fields": [
       {
         "Name": "MinMicMass",
@@ -1648,7 +1648,7 @@
   {
     "Name": "Hvi1000IniDrumMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~DRUM MOTOR",
+    "QualifiedSection": "HVI1000.INI~DRUM MOTOR",
     "Fields": [
       {
         "Name": "Speed",
@@ -1705,7 +1705,7 @@
   {
     "Name": "Hvi1000IniGeneral",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~GENERAL",
+    "QualifiedSection": "HVI1000.INI~GENERAL",
     "Fields": [
       {
         "Name": "LengthStrength",
@@ -1742,7 +1742,7 @@
   {
     "Name": "Hvi1000IniLeafgrade",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LEAFGRADE",
+    "QualifiedSection": "HVI1000.INI~LEAFGRADE",
     "Fields": [
       {
         "Name": "Constant",
@@ -1769,7 +1769,7 @@
   {
     "Name": "Hvi1000IniLengthMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LENGTH MOTOR",
+    "QualifiedSection": "HVI1000.INI~LENGTH MOTOR",
     "Fields": [
       {
         "Name": "Speed",
@@ -1811,7 +1811,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE2",
     "Fields": [
       {
         "Name": "BaleId",
@@ -1843,7 +1843,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE3",
     "Fields": [
       {
         "Name": "BaleId",
@@ -1875,7 +1875,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE4",
     "Fields": [
       {
         "Name": "BaleId",
@@ -1907,7 +1907,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE5",
     "Fields": [
       {
         "Name": "BaleId",
@@ -1939,7 +1939,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE6",
     "Fields": [
       {
         "Name": "BaleId",
@@ -1971,7 +1971,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference7",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE7",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE7",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2003,7 +2003,7 @@
   {
     "Name": "Hvi1000IniLs8x8reference8",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8REFERENCE8",
+    "QualifiedSection": "HVI1000.INI~LS8X8REFERENCE8",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2035,7 +2035,7 @@
   {
     "Name": "Hvi1000IniLs8x8tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~LS8X8TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~LS8X8TOLERANCES",
     "Fields": [
       {
         "Name": "Ls8x8lentolerance",
@@ -2092,7 +2092,7 @@
   {
     "Name": "Hvi1000IniMeasurement",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MEASUREMENT",
+    "QualifiedSection": "HVI1000.INI~MEASUREMENT",
     "Fields": [
       {
         "Name": "LengthStrength",
@@ -2154,7 +2154,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference1",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE1",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE1",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2171,7 +2171,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE2",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2188,7 +2188,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE3",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2205,7 +2205,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE4",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2222,7 +2222,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE5",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2239,7 +2239,7 @@
   {
     "Name": "Hvi1000IniMic8x6reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~MIC8X6REFERENCE6",
     "Fields": [
       {
         "Name": "BaleId",
@@ -2256,7 +2256,7 @@
   {
     "Name": "Hvi1000IniMic8x6tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~MIC8X6TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~MIC8X6TOLERANCES",
     "Fields": [
       {
         "Name": "Mic8x6mictolerance",
@@ -2273,7 +2273,7 @@
   {
     "Name": "Hvi1000IniOverrides",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~OVERRIDES",
+    "QualifiedSection": "HVI1000.INI~OVERRIDES",
     "Fields": [
       {
         "Name": "Inhouse",
@@ -2285,7 +2285,7 @@
   {
     "Name": "Hvi1000IniRetest",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~RETEST",
+    "QualifiedSection": "HVI1000.INI~RETEST",
     "Fields": [
       {
         "Name": "Betweensides",
@@ -2327,7 +2327,7 @@
   {
     "Name": "Hvi1000IniSocParameters",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~SOC PARAMETERS",
+    "QualifiedSection": "HVI1000.INI~SOC PARAMETERS",
     "Fields": [
       {
         "Name": "LSControlBoardDebugMode",
@@ -2449,7 +2449,7 @@
   {
     "Name": "Hvi1000IniStrengthMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~STRENGTH MOTOR",
+    "QualifiedSection": "HVI1000.INI~STRENGTH MOTOR",
     "Fields": [
       {
         "Name": "ForwardInSensorSteps",
@@ -2476,7 +2476,7 @@
   {
     "Name": "Hvi1000IniSysOptions",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~SYS_OPTIONS",
+    "QualifiedSection": "HVI1000.INI~SYS_OPTIONS",
     "Fields": [
       {
         "Name": "Loglsmodfibrograms",
@@ -2573,7 +2573,7 @@
   {
     "Name": "Hvi1000IniTestConfiguration",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TEST CONFIGURATION",
+    "QualifiedSection": "HVI1000.INI~TEST CONFIGURATION",
     "Fields": [
       {
         "Name": "Hvimillversion",
@@ -2680,7 +2680,7 @@
   {
     "Name": "Hvi1000IniTimeouts",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TIMEOUTS",
+    "QualifiedSection": "HVI1000.INI~TIMEOUTS",
     "Fields": [
       {
         "Name": "Holdstatusfiletimeout",
@@ -2712,7 +2712,7 @@
   {
     "Name": "Hvi1000IniTrackMotor",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRACK MOTOR",
+    "QualifiedSection": "HVI1000.INI~TRACK MOTOR",
     "Fields": [
       {
         "Name": "Speed",
@@ -2749,7 +2749,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE",
     "Fields": [
       {
         "Name": "Referenceset",
@@ -2761,7 +2761,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference1",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE1",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE1",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2778,7 +2778,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference10",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE10",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE10",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2795,7 +2795,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference11",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE11",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE11",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2812,7 +2812,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference12",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE12",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE12",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2829,7 +2829,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE2",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2846,7 +2846,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE3",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2863,7 +2863,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE4",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2880,7 +2880,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE5",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2897,7 +2897,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE6",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2914,7 +2914,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference7",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE7",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE7",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2931,7 +2931,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference8",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE8",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE8",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2948,7 +2948,7 @@
   {
     "Name": "Hvi1000IniTrash8x12reference9",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12REFERENCE9",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12REFERENCE9",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -2965,7 +2965,7 @@
   {
     "Name": "Hvi1000IniTrash8x12tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X12TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~TRASH8X12TOLERANCES",
     "Fields": [
       {
         "Name": "Trash8x12areatolerance1",
@@ -3102,7 +3102,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE",
     "Fields": [
       {
         "Name": "Referenceset",
@@ -3114,7 +3114,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference1",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE1",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE1",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3131,7 +3131,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference2",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE2",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE2",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3148,7 +3148,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference3",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE3",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE3",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3165,7 +3165,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference4",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE4",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE4",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3182,7 +3182,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference5",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE5",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE5",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3199,7 +3199,7 @@
   {
     "Name": "Hvi1000IniTrash8x6reference6",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6REFERENCE6",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6REFERENCE6",
     "Fields": [
       {
         "Name": "Trasharea",
@@ -3216,7 +3216,7 @@
   {
     "Name": "Hvi1000IniTrash8x6tolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASH8X6TOLERANCES",
+    "QualifiedSection": "HVI1000.INI~TRASH8X6TOLERANCES",
     "Fields": [
       {
         "Name": "Trash8x6areatolerance1",
@@ -3318,7 +3318,7 @@
   {
     "Name": "Hvi1000IniTrashhistogram",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~TRASHHISTOGRAM",
+    "QualifiedSection": "HVI1000.INI~TRASHHISTOGRAM",
     "Fields": [
       {
         "Name": "Type",
@@ -3460,7 +3460,7 @@
   {
     "Name": "Hvi1000IniUsdasignon",
     "Description": "Temp_Description",
-    "Qualified_section": "HVI1000.INI~USDASIGNON",
+    "QualifiedSection": "HVI1000.INI~USDASIGNON",
     "Fields": [
       {
         "Name": "Testmode",
@@ -3502,7 +3502,7 @@
   {
     "Name": "LscalconfigIniCaliblstolerances",
     "Description": "Temp_Description",
-    "Qualified_section": "LSCALCONFIG.INI~CALIBLSTOLERANCES",
+    "QualifiedSection": "LSCALCONFIG.INI~CALIBLSTOLERANCES",
     "Fields": [
       {
         "Name": "Combtoleranceuniformity",
@@ -3614,7 +3614,7 @@
   {
     "Name": "PasswordsIniFhdhehfgch",
     "Description": "Temp_Description",
-    "Qualified_section": "PASSWORDS.INI~FHDHEHFGCH",
+    "QualifiedSection": "PASSWORDS.INI~FHDHEHFGCH",
     "Fields": [
       {
         "Name": "Supervisors",
@@ -3631,7 +3631,7 @@
   {
     "Name": "PasswordsIniLabsupervisors",
     "Description": "Temp_Description",
-    "Qualified_section": "PASSWORDS.INI~LABSUPERVISORS",
+    "QualifiedSection": "PASSWORDS.INI~LABSUPERVISORS",
     "Fields": [
       {
         "Name": "Fhdhehfgch",
@@ -3643,7 +3643,7 @@
   {
     "Name": "PasswordsIniSupervisors",
     "Description": "Temp_Description",
-    "Qualified_section": "PASSWORDS.INI~SUPERVISORS",
+    "QualifiedSection": "PASSWORDS.INI~SUPERVISORS",
     "Fields": [
       {
         "Name": "Fhdhehfgch",
@@ -3655,7 +3655,7 @@
   {
     "Name": "PasswordsIniTechnicians",
     "Description": "Temp_Description",
-    "Qualified_section": "PASSWORDS.INI~TECHNICIANS",
+    "QualifiedSection": "PASSWORDS.INI~TECHNICIANS",
     "Fields": [
       {
         "Name": "Fhdhehfgch",
@@ -3667,7 +3667,7 @@
   {
     "Name": "PimaoffsetsIniOffsets",
     "Description": "Temp_Description",
-    "Qualified_section": "PIMAOFFSETS.INI~OFFSETS",
+    "QualifiedSection": "PIMAOFFSETS.INI~OFFSETS",
     "Fields": [
       {
         "Name": "Length",
@@ -3679,7 +3679,7 @@
   {
     "Name": "UplandinhousebalesIniAutooffsets",
     "Description": "Temp_Description",
-    "Qualified_section": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS",
+    "QualifiedSection": "UPLANDINHOUSEBALES.INI~AUTOOFFSETS",
     "Fields": [
       {
         "Name": "Offsetweighting1",
@@ -3806,7 +3806,7 @@
   {
     "Name": "UplandinhousebalesIniInhousetest",
     "Description": "Temp_Description",
-    "Qualified_section": "UPLANDINHOUSEBALES.INI~INHOUSETEST",
+    "QualifiedSection": "UPLANDINHOUSEBALES.INI~INHOUSETEST",
     "Fields": [
       {
         "Name": "Lengthstandard",
@@ -3948,7 +3948,7 @@
   {
     "Name": "UplandoffsetsIniAutooffsets",
     "Description": "Temp_Description",
-    "Qualified_section": "UPLANDOFFSETS.INI~AUTOOFFSETS",
+    "QualifiedSection": "UPLANDOFFSETS.INI~AUTOOFFSETS",
     "Fields": [
       {
         "Name": "Offset30",
@@ -4055,7 +4055,7 @@
   {
     "Name": "UplandoffsetsIniOffsets",
     "Description": "Temp_Description",
-    "Qualified_section": "UPLANDOFFSETS.INI~OFFSETS",
+    "QualifiedSection": "UPLANDOFFSETS.INI~OFFSETS",
     "Fields": [
       {
         "Name": "Length",
