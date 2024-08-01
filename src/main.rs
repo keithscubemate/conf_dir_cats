@@ -9,18 +9,29 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let map = handle_line(line.unwrap());
 
+    println!(
+        "{},{},{},{},{},{}",
+        "File", "Section", "Key", "Value Example", "Is it ReadOnly?", "Should it be displayed"
+    );
+
     let mut by_len = Vec::new();
     for (file, sections) in map {
         for (section, keys) in sections {
             let qualified_section = format!("{}~{}", file, section);
 
+            for (key, value) in &keys {
+                println!("{},{},{},{},{},{}", file, section, key, value, false, true);
+            }
+
             by_len.push(QualifiedSection::new(qualified_section, keys));
         }
     }
 
+    /*
     let json = serde_json::to_string(&by_len)?;
 
     println!("{}", json);
+    */
 
     Ok(())
 }
