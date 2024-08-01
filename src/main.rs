@@ -27,29 +27,37 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 #[derive(Serialize, Deserialize)]
 struct Field {
-    Name: String,
-    DisplayName: String,
-    Description: String,
-    Key: String,
+    #[serde(rename(serialize = "Name"))]
+    name: String,
+    #[serde(rename(serialize = "DisplayName"))]
+    display_name: String,
+    #[serde(rename(serialize = "Description"))]
+    description: String,
+    #[serde(rename(serialize = "Key"))]
+    key: String,
 }
 
 impl Field {
     fn new(key: &str, _value: &str, qualified_section: &str) -> Self {
         Self {
-            Name: key_to_camelcase(key),
-            DisplayName: key.to_string(),
-            Description: "Temp_Description".to_string(),
-            Key: format!("{}~{}", qualified_section, key),
+            name: key_to_camelcase(key),
+            display_name: key.to_string(),
+            description: "Temp_Description".to_string(),
+            key: format!("{}~{}", qualified_section, key),
         }
     }
 }
 
 #[derive(Serialize, Deserialize)]
 struct QualifiedSection {
-    Name: String,
-    DisplayName: String,
-    Description: String,
-    Fields: Vec<Field>,
+    #[serde(rename(serialize = "Name"))]
+    name: String,
+    #[serde(rename(serialize = "DisplayName"))]
+    display_name: String,
+    #[serde(rename(serialize = "Description"))]
+    description: String,
+    #[serde(rename(serialize = "Fields"))]
+    fields: Vec<Field>,
 }
 
 impl QualifiedSection {
@@ -66,10 +74,10 @@ impl QualifiedSection {
             .collect();
 
         Self {
-            Name: name,
-            DisplayName: format!("*{}*", qualified_section),
-            Description: "Temp_Description".to_string(),
-            Fields: fields,
+            name,
+            display_name: format!("*{}*", qualified_section),
+            description: "Temp_Description".to_string(),
+            fields,
         }
     }
 }
@@ -114,9 +122,9 @@ fn handle_line(line: String) -> BTreeMap<String, BTreeMap<String, Vec<(String, S
         let section = entry_key_fields[1].to_string();
         let key = entry_key_fields[2].to_string();
 
-        let section_map = file_map.entry(file).or_insert(BTreeMap::new());
+        let section_map = file_map.entry(file).or_default();
 
-        let key_set = section_map.entry(section).or_insert(Vec::new());
+        let key_set = section_map.entry(section).or_default();
 
         key_set.push((key, entry_value));
     }
