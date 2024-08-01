@@ -1,5 +1,6 @@
 use std::collections::BTreeMap;
 
+use regex::Regex;
 use serde::{Deserialize, Serialize};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -9,31 +10,54 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let map = handle_line(line.unwrap());
 
-    println!(
-        "{},{},{},{},{},{}",
-        "File", "Section", "Key", "Value Example", "Is it ReadOnly?", "Should it be displayed"
-    );
 
+    dump_csv(&map);
+
+    /*
     let mut by_len = Vec::new();
-    for (file, sections) in map {
+    for (file, sections) in &map {
         for (section, keys) in sections {
             let qualified_section = format!("{}~{}", file, section);
-
-            for (key, value) in &keys {
-                println!("{},{},{},{},{},{}", file, section, key, value, false, true);
-            }
 
             by_len.push(QualifiedSection::new(qualified_section, keys));
         }
     }
 
-    /*
     let json = serde_json::to_string(&by_len)?;
 
     println!("{}", json);
     */
 
     Ok(())
+}
+
+fn dump_csv(map: &BTreeMap<String, BTreeMap<String, Vec<(String, String)>>>) {
+    println!(
+        "{},{},{},{},{},{}",
+        "File", "Section", "Key", "Value Example", "Is it ReadOnly?", "Should it be displayed"
+    );
+
+    for (file, sections) in map {
+        for (section, keys) in sections {
+            let disp_re = Regex::new("(?i)timeo|expir").unwrap();
+            let ro_re = Regex::new("(?i)cal|res|motor|auto").unwrap();
+
+            for (key, value) in keys {
+                let full_key = format!("{}~{}~{}", file, section, key);
+
+                println!(
+                    "{},{},{},{},{},{}",
+                    file,
+                    section,
+                    key,
+                    value,
+                    ro_re.is_match(&full_key),
+                    disp_re.is_match(&full_key),
+                );
+            }
+        }
+    }
+
 }
 
 #[derive(Serialize, Deserialize)]
