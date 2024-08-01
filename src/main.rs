@@ -10,7 +10,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let map = handle_line(line.unwrap());
 
-
     dump_csv(&map);
 
     /*
@@ -57,7 +56,6 @@ fn dump_csv(map: &BTreeMap<String, BTreeMap<String, Vec<(String, String)>>>) {
             }
         }
     }
-
 }
 
 #[derive(Serialize, Deserialize)]
