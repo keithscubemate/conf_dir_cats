@@ -28,6 +28,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 #[derive(Serialize, Deserialize)]
 struct Field {
     Name: String,
+    DisplayName: String,
     Description: String,
     Key: String,
 }
@@ -36,6 +37,7 @@ impl Field {
     fn new(key: &str, _value: &str, qualified_section: &str) -> Self {
         Self {
             Name: key_to_camelcase(key),
+            DisplayName: key.to_string(),
             Description: "Temp_Description".to_string(),
             Key: format!("{}~{}", qualified_section, key),
         }
@@ -45,8 +47,8 @@ impl Field {
 #[derive(Serialize, Deserialize)]
 struct QualifiedSection {
     Name: String,
+    DisplayName: String,
     Description: String,
-    QualifiedSection: String,
     Fields: Vec<Field>,
 }
 
@@ -65,8 +67,8 @@ impl QualifiedSection {
 
         Self {
             Name: name,
+            DisplayName: format!("*{}*", qualified_section),
             Description: "Temp_Description".to_string(),
-            QualifiedSection: qualified_section,
             Fields: fields,
         }
     }
