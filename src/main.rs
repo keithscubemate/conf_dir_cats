@@ -40,7 +40,7 @@ fn dump_csv(map: &BTreeMap<String, BTreeMap<String, Vec<(String, String)>>>) {
     for (file, sections) in map {
         for (section, keys) in sections {
             let disp_re = Regex::new("(?i)timeo|expir").unwrap();
-            let ro_re = Regex::new("(?i)cal|res|motor|auto").unwrap();
+            let ro_re = Regex::new("(?i)cal|res|motor|auto|installed").unwrap();
 
             for (key, value) in keys {
                 let full_key = format!("{}~{}~{}", file, section, key);
@@ -52,7 +52,7 @@ fn dump_csv(map: &BTreeMap<String, BTreeMap<String, Vec<(String, String)>>>) {
                     key,
                     value,
                     ro_re.is_match(&full_key),
-                    disp_re.is_match(&full_key),
+                    !disp_re.is_match(&full_key),
                 );
             }
         }
